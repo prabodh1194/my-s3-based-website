@@ -72,8 +72,13 @@ Resources:
     Type: 'AWS::CloudFront::Distribution'
     Properties:
       DistributionConfig:
-        CNAMEs:
-          - 'prabodhagarwal.com'
+        CustomErrorResponses:
+          - ErrorCode: 404
+            ResponseCode: 200
+            ResponsePagePath: /index.html
+          - ErrorCode: 403
+            ResponseCode: 200
+            ResponsePagePath: /index.html
         Origins:
         - DomainName: !GetAtt S3Bucket.RegionalDomainName
           Id: myS3Origin
