@@ -1,41 +1,18 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import Cover from './Cover';
+import {Component} from "react";
 
 class Main extends Component {
-
-    constructor(props) {
-        super(props);
-
-        props.showTop(false);
-    }
-
-    render() {
-        return (
-            <Cover top={true} bottom={true}>
-                <div id="pbd"
-                     className="shrikhand">
-                    <Link to="about">
-                        <h1 className="display-1">Prabodh Agarwal</h1>
-                    </Link>
+        render() {
+            return (
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-12 col-md-12 col-lg-12">
+                            <h1 className="text-center nunito">Hi, I'm <span className="name">Pbd</span></h1>
+                            <h2 className="text-center nunito">I'm a software engineer</h2>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    {["Blogger"].map((el, idx) =>
-                    {
-                        return (<Link
-                                to={`/${el.toLowerCase()}`}
-                                key={`btn-${idx}`}>
-                                <button className="blog bt alegreya">
-                                    {el}.
-                                </button>
-                            </Link>
-                        );
-                    })
-                    }
-                </div>
-            </Cover>
-        );
-    }
+            );
+        }
 }
 
 export default Main;
