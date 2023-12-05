@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Top from './Top';
 import Main from './Main';
-import Footer from './Footer';
-import About from './About';
-import Blog from './Blog';
-import Developer from './Develop';
-import Tutor from './Tutor';
 
 class App extends Component {
 
@@ -32,7 +27,6 @@ class App extends Component {
                         <Route exact path="/" render={(props) => <Main {...props} showTop={this._showTop} />} />
                         <Route exact path="/resume" render={() => window.location = 'https://drive.google.com/open?id=1dwvo4DMUiaBLmgXu1QsH5ipHtCaogrSU'} />
                     </Switch>
-                    <Footer/>
                 </div>
             </Router>
         );
