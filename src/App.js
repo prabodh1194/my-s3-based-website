@@ -1,20 +1,42 @@
-import './App.css';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Top from './Top';
+import Main from './Main';
+import Footer from './Footer';
+import About from './About';
+import Blog from './Blog';
+import Developer from './Develop';
+import Tutor from './Tutor';
 
+class App extends Component {
 
-function App() {
-    return (
-        <div className="App">
-            <p>This react-based application is hosted in an S3 bucket exposed through a CloudFront distribution</p>
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            showTop: true
+        }
+    }
+
+    _showTop = (isShow) => {
+        this.setState({showTop: isShow});
+    }
+
+    render() {
+        return (
             <Router>
-                <Switch>
-                    <Route exact path="/a" render={(props) => <span>a</span>}/>
-                    <Route exact path="/b" render={(props) => <span>b</span>}/>
-                    <Route exact path="/c" render={(props) => <span>c</span>}/>
-                </Switch>
+                <div>
+                    {this.state.showTop &&
+                        <Route path="/" render={(props) => <Top location={props.location}/>} />}
+                    <Switch>
+                        <Route exact path="/" render={(props) => <Main {...props} showTop={this._showTop} />} />
+                        <Route exact path="/resume" render={() => window.location = 'https://drive.google.com/open?id=1dwvo4DMUiaBLmgXu1QsH5ipHtCaogrSU'} />
+                    </Switch>
+                    <Footer/>
+                </div>
             </Router>
-        </div>
-    );
+        );
+    }
 }
 
 export default App;
