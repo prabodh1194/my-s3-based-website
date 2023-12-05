@@ -1,13 +1,10 @@
 {
-  "name": "react-cors-spa",
+  "name": "pbd-website",
   "version": "1.0.0",
   "private": false,
-  "email": "jguilloi@amazon.fr",
-  "license": "MIT",
+  "email": "pbd1194@gmail.com",
+  "license": "UNLICENSE",
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
     "react-scripts": "^5.0.1"
   },
   "dependencies": {
@@ -25,8 +22,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
