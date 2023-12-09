@@ -11,6 +11,8 @@ class App extends Component {
                     <Route path="/" render={(props) => <Top location={props.location}/>} />
                     <Switch>
                         <Route exact path="/" render={(props) => <Main {...props} />} />
+                        <Route exact path="/about" render={() => <div>a</div> }/>
+                        <Route exact path="/blogger" render={() => <div>b</div> }/>
                         <Route exact path="/resume" render={() => window.location = 'https://drive.google.com/open?id=1dwvo4DMUiaBLmgXu1QsH5ipHtCaogrSU'} />
                     </Switch>
                 </div>
