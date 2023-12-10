@@ -1,4 +1,6 @@
 import os
+import uuid
+
 import boto3
 import json
 
@@ -26,6 +28,6 @@ def lambda_handler(event, context):
                         f'/{key}'
                     ]
                 },
-                'CallerReference': 'string'
+                'CallerReference': str(uuid.uuid4())
             }
         )
