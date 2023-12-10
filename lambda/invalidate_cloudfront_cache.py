@@ -14,9 +14,17 @@ def lambda_handler(event, context):
         # Perform your desired actions with the S3 event
         print(f"File {key} in bucket {bucket} was modified.")
 
-# If you want to use additional AWS services, such as SNS, SQS, etc.,
-# you can modify the lambda_handler function accordingly.
-
-# Note: Make sure to grant the Lambda function the necessary permissions
-# to read events from S3. You can use the AWS IAM console to attach the
-# "AmazonS3ReadOnlyAccess" policy to your Lambda function's role.
+        # invalidate CloudFront cache
+        client = boto3.client('cloudfront')
+        response = client.create_invalidation(
+            DistributionId=os.environ['DISTRIBUTION_ID']
+            InvalidationBatch={
+                'Paths': {
+                    'Quantity': 1,
+                    'Items': [
+                        f'/{key}'
+                    ]
+                },
+                'CallerReference': 'string'
+            }
+        )
