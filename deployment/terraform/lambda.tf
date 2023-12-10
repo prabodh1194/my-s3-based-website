@@ -84,3 +84,8 @@ resource "aws_s3_bucket_notification" "invalidate_cf_cache_on_s3" {
     events              = ["s3:ObjectCreated:*"]
   }
 }
+
+resource "aws_cloudwatch_log_group" "cache_invalidation_log_group" {
+  name              = "/aws/lambda/${aws_lambda_function.invalidate_cloudfront_cache.function_name}"
+  retention_in_days = 1 # Set your desired retention period in days
+}
