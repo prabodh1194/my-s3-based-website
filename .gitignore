@@ -35,7 +35,7 @@ build/
 .history/
 
 # MacOS hidden folders
-.DS_Store/
+.DS_Store
 
 .idea/
 
