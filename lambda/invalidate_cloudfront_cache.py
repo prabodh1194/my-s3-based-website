@@ -18,7 +18,7 @@ def lambda_handler(event, context):
         # invalidate CloudFront cache
         client = boto3.client('cloudfront')
         response = client.create_invalidation(
-            DistributionId=os.environ['DISTRIBUTION_ID']
+            DistributionId=os.environ['DISTRIBUTION_ID'],
             InvalidationBatch={
                 'Paths': {
                     'Quantity': 1,
