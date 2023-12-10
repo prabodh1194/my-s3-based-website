@@ -3,8 +3,8 @@ provider "archive" {
 }
 
 # Create an IAM role for Lambda
-resource "aws_iam_role" "lambda_role" {
-  name               = "lambda_role"
+resource "aws_iam_role" "assume_lambda_role" {
+  name               = "assume_lambda_role"
   assume_role_policy = jsonencode({
     Version   = "2012-10-17"
     Statement = [
@@ -19,11 +19,31 @@ resource "aws_iam_role" "lambda_role" {
   })
 }
 
+resource "aws_iam_policy" "allow_cache_invalidation" {
+  name        = "allow_cache_invalidation"
+  description = "Allow cache invalidation"
+  policy      = jsonencode({
+    Version   = "2012-10-17"
+    Statement = [
+      {
+        Action   = "cloudfront:CreateInvalidation"
+        Effect   = "Allow"
+        Resource = aws_cloudfront_distribution.CFDistribution.arn
+      }
+    ]
+  })
+}
+
 
 # Attach AWSLambdaBasicExecutionRole policy to the IAM role
-resource "aws_iam_role_policy_attachment" "lambda_role_policy_attachment" {
+resource "aws_iam_role_policy_attachment" "lambda_basic_execution_role_policy_attachment" {
   policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
-  role       = aws_iam_role.lambda_role.name
+  role       = aws_iam_role.assume_lambda_role.name
+}
+
+resource "aws_iam_role_policy_attachment" "lambda_cache_invalidation_policy" {
+  policy_arn = aws_iam_policy.allow_cache_invalidation.arn
+  role       = aws_iam_role.assume_lambda_role.name
 }
 
 resource "aws_lambda_permission" "allow_bucket" {
@@ -45,7 +65,7 @@ data "archive_file" "lambda_code" {
 resource "aws_lambda_function" "invalidate_cloudfront_cache" {
   filename      = data.archive_file.lambda_code.output_path
   function_name = "invalidate_cloudfront_cache"
-  role          = aws_iam_role.lambda_role.arn
+  role          = aws_iam_role.assume_lambda_role.arn
   handler       = "invalidate_cloudfront_cache.lambda_handler"
   runtime       = "python3.10"
   environment {
