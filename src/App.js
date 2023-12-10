@@ -9,9 +9,6 @@ class App extends Component {
         return (
             <Router>
                 <div>
-                    <ToggleDarkMode />
-                    <input type="checkbox" name="light-switch" className="light-switch" />
-                    <label htmlFor="light-switch">Switch to light / dark version</label>
                     <Route path="/" render={(props) => <Top location={props.location}/>} />
                     <Switch>
                         <Route exact path="/" render={(props) => <Main {...props} />} />
