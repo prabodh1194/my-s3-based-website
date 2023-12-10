@@ -4,7 +4,7 @@ provider "archive" {
 
 # Create an IAM role for Lambda
 resource "aws_iam_role" "lambda_role" {
-  name = "lambda_role"
+  name               = "lambda_role"
   assume_role_policy = jsonencode({
     Version   = "2012-10-17"
     Statement = [
@@ -19,11 +19,6 @@ resource "aws_iam_role" "lambda_role" {
   })
 }
 
-data "archive_file" "lambda_code" {
-  type        = "zip"
-  output_path = "/tmp/lambda/lambda_function.zip"
-  source_dir  = "../../lambda"
-}
 
 # Attach AWSLambdaBasicExecutionRole policy to the IAM role
 resource "aws_iam_role_policy_attachment" "lambda_role_policy_attachment" {
@@ -39,6 +34,12 @@ resource "aws_lambda_permission" "allow_bucket" {
   source_arn    = aws_s3_bucket.website.arn
 }
 
+data "archive_file" "lambda_code" {
+  type        = "zip"
+  output_path = "/tmp/lambda/lambda_function.zip"
+  source_dir  = "../../lambda"
+}
+
 
 # Create an AWS Lambda function
 resource "aws_lambda_function" "invalidate_cloudfront_cache" {
@@ -52,13 +53,14 @@ resource "aws_lambda_function" "invalidate_cloudfront_cache" {
       DISTRIBUTION_ID = aws_cloudfront_distribution.CFDistribution.id
     }
   }
+  source_code_hash = data.archive_file.lambda_code.output_base64sha256
 }
 
 resource "aws_s3_bucket_notification" "invalidate_cf_cache_on_s3" {
-    bucket = aws_s3_bucket.website.bucket
+  bucket = aws_s3_bucket.website.bucket
 
-    lambda_function {
-        lambda_function_arn = aws_lambda_function.invalidate_cloudfront_cache.arn
-        events              = ["s3:ObjectCreated:*"]
-    }
+  lambda_function {
+    lambda_function_arn = aws_lambda_function.invalidate_cloudfront_cache.arn
+    events              = ["s3:ObjectCreated:*"]
+  }
 }
