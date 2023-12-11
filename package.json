@@ -5,7 +5,8 @@
   "email": "pbd1194@gmail.com",
   "license": "UNLICENSE",
   "devDependencies": {
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "@babel/plugin-proposal-private-property-in-object": "latest"
   },
   "dependencies": {
     "react": "^18",
