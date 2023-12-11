@@ -6,15 +6,14 @@ class Top extends Component {
     render() {
         return (
             <header>
-                <div className="grid grid-cols-10">
-                    <Link to="/" key="btn-hm" className="place-self-start col-span-8">
+                <div>
+                    <Link to="/" key="btn-hm">
                         <img
                             alt="home"
                             src="/favicon.ico"/>
                     </Link>
                     {["Blogger", "About"].map((el, idx) => {
                         return (<Link
-                                className="place-self-center"
                                 to={`/${el.toLowerCase()}`}
                                 key={`btn-${idx}`}>
                                 <button>
