@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import {Link, Outlet} from 'react-router-dom';
 
 class Top extends Component {
 
@@ -24,6 +24,7 @@ class Top extends Component {
                     })
                     }
                 </div>
+                <Outlet />
             </header>
         );
     }
