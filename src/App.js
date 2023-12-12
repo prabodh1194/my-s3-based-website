@@ -12,8 +12,8 @@ class App extends Component {
                 <Routes>
                     <Route element={<Top/>}>
                         <Route exact path="/" element={<Main/>}/>
-                        <Route exact path="/about" element={<About />}/>
-                        <Route exact path="/blog" element={<Blog />}/>
+                        <Route exact path="/about" element={<About/>}/>
+                        <Route exact path="/blog" element={<Blog/>}/>
                         <Route exact path="/resume"
                                element={() => window.location = 'https://drive.google.com/open?id=1dwvo4DMUiaBLmgXu1QsH5ipHtCaogrSU'}/>
                     </Route>
