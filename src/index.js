@@ -9,9 +9,9 @@ import {Container} from "react-bootstrap";
 
 ReactDOM.render(
     <React.StrictMode>
-        <Container className="vh-100">
+        <div className="vh-100 m-auto" style={{"width": "70ch"}}>
             <App/>
-        </Container>
+        </div>
     </React.StrictMode>,
     document.getElementById('root')
 );
