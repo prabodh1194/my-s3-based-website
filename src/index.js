@@ -4,12 +4,14 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css';
-import {Container} from "react-bootstrap";
 
 
 ReactDOM.render(
     <React.StrictMode>
-        <div className="vh-100 m-auto" style={{"width": "70ch"}}>
+        <div className="vh-100 m-auto" style={{
+            "maxWidth": "70ch",
+            "padding": "2ch"
+        }}>
             <App/>
         </div>
     </React.StrictMode>,
