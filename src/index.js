@@ -9,7 +9,7 @@ import {Container} from "react-bootstrap";
 
 ReactDOM.render(
     <React.StrictMode>
-        <Container>
+        <Container className="vh-100">
             <App/>
         </Container>
     </React.StrictMode>,
