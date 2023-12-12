@@ -6,25 +6,24 @@ class Top extends Component {
     render() {
         return (
             <>
-                <header>
-                    <div>
-                        <Link to="/" key="btn-hm">
-                            <img
-                                alt="home"
-                                src="/favicon.ico"/>
-                        </Link>
-                        {["Blogger", "About"].map((el, idx) => {
-                            return (<Link
-                                    to={`/${el.toLowerCase()}`}
-                                    key={`btn-${idx}`}>
-                                    <button>
-                                        {el}
-                                    </button>
-                                </Link>
-                            );
-                        })
-                        }
-                    </div>
+                <header className="d-flex align-items-center">
+                    <Link to="/" key="btn-hm" className="p-4 flex-grow-1">
+                        <img
+                            alt="home"
+                            src="/favicon.ico"/>
+                    </Link>
+                    {["Blog", "About"].map((el, idx) => {
+                        return (<Link
+                                className="pe-5 py-4 align-items-center"
+                                to={`/${el.toLowerCase()}`}
+                                key={`btn-${idx}`}>
+                                <button className="btn fw-bold fs-5">
+                                    {el}
+                                </button>
+                            </Link>
+                        );
+                    })
+                    }
                 </header>
                 <Outlet/>
             </>
