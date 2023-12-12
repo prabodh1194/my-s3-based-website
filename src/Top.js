@@ -12,12 +12,12 @@ class Top extends Component {
                             alt="home"
                             src="/favicon.ico"/>
                     </Link>
-                    {["Blog", "About"].map((el, idx) => {
+                    {["About", "Blog"].map((el, idx) => {
                         return (<Link
                                 className="pe-5 py-4 align-items-center"
                                 to={`/${el.toLowerCase()}`}
                                 key={`btn-${idx}`}>
-                                <button className="btn fw-bold fs-5">
+                                <button className="btn fw-light fs-5">
                                     {el}
                                 </button>
                             </Link>
