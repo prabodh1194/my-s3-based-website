@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Prabodh's Blog",
+  "name": "Prabodh Agarwal website",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,6 +10,6 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#ffffaa",
+  "theme_color": "pink",
   "background_color": "#ff8800"
 }
