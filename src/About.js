@@ -9,12 +9,6 @@ function differenceInYearsAndMonths(date1, date2) {
     // Convert milliseconds to years
     const years = Math.floor(timeDiff / (1000 * 60 * 60 * 24 * 365.25));
 
-    // Calculate the remaining time difference in milliseconds
-    const remainingTimeDiff = timeDiff - (years * 1000 * 60 * 60 * 24 * 365.25);
-
-    // Convert remaining milliseconds to months
-    const months = Math.floor(remainingTimeDiff / (1000 * 60 * 60 * 24 * (365.25 / 12)));
-
     return `${years}+`;
 }
 
