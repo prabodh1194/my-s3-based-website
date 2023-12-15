@@ -21,7 +21,7 @@ const App = () => {
             const _created_date = new Date(Component.created_on)
             const path = `/blog/${_created_date.getFullYear()}/${1 + _created_date.getMonth()}/${_created_date.getDate()}/${Component.name}`
 
-            return <Route key={Component.name} exact path={path} element={<Component.mod />}/>
+            return <Route key={Component.name} exact path={path} Component={Component.mod}/>
         })
         setRoutes(_routes)
     }, [blogs]);
@@ -35,6 +35,9 @@ const App = () => {
                     <Route exact path="/" element={<Main/>}/>
                     <Route exact path="/about" element={<About/>}/>
                     <Route exact path="/blog" element={<Blog/>}/>
+                    <Route exact path="/blog/:year" element={<Blog/>}/>
+                    <Route exact path="/blog/:year/:month" element={<Blog/>}/>
+                    <Route exact path="/blog/:year/:month/:date" element={<Blog/>}/>
                     <Route exact path="/resume"
                            element={() => window.location = 'https://drive.google.com/open?id=1dwvo4DMUiaBLmgXu1QsH5ipHtCaogrSU'}/>
                     {routes}
