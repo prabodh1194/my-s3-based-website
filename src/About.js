@@ -14,7 +14,7 @@ function differenceInYearsAndMonths(date1, date2) {
 
 const About = () => {
     return (
-        <div className="row justify-content-evenly align-items-center h-75">
+        <div className="row">
             <div className="fs-5 fw-light">
                 <h1 className="align left">Hi Peeps,</h1>
                 <content className="align left">

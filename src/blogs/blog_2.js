@@ -7,9 +7,9 @@ export const created_on = "Aug 19, 2018";
 
 export const mod = () => {
     return (
-        <div className="about">
-            <h1 className="monteserrat align left">Back to JS</h1>
-            <content className="monteserrat align left">
+        <div className="row">
+            <h1 className="align left">Back to JS</h1>
+            <content className="align left">
                 <p>
                     My journey away from JS and back to it! Pretty fantastic I would say.
                 </p>

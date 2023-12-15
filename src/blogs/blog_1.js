@@ -5,7 +5,7 @@ export const created_on = "Aug 8, 2018"
 
 export const mod = () => {
     return (
-        <div className="about">
+        <div className="row">
             <h1 className="align left">Why?</h1>
             <content className="align left">
                 <p>

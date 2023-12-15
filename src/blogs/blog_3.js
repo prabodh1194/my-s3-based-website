@@ -5,9 +5,9 @@ export const created_on = "Feb 10, 2019";
 
 export const mod = () => {
         return (
-            <div className="about">
-                <h1 className="monteserrat align left">The Willpower Instinct</h1>
-                <content className="monteserrat align left">
+            <div className="row">
+                <h1 className="align left">The Willpower Instinct</h1>
+                <content className="align left">
                     <p>
                         Of late I've started reflecting on what my professional
                         life has been upto and how have I been holding up here.
