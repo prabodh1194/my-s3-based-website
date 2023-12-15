@@ -1,9 +1,9 @@
 import React from 'react';
 
-const name = "Why?"
-const date = "Aug 8, 2018"
+export const name = "Why?"
+export const created_on = "Aug 8, 2018"
 
-const Why = () => {
+export const mod = () => {
     return (
         <div className="about">
             <h1 className="align left">Why?</h1>
@@ -38,5 +38,3 @@ const Why = () => {
         </div>
     );
 }
-
-export default Why;

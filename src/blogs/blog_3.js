@@ -1,9 +1,9 @@
 import React from 'react';
 
-const name = "The Willpower Instinct";
-const date = "Feb 10, 2019";
+export const name = "The Willpower Instinct";
+export const created_on = "Feb 10, 2019";
 
-const TheWillpowerInstinct = () => {
+export const mod = () => {
         return (
             <div className="about">
                 <h1 className="monteserrat align left">The Willpower Instinct</h1>
@@ -37,7 +37,7 @@ const TheWillpowerInstinct = () => {
                         in intermediate<b>;</b> back in high school<b>;</b> back in middle school.
                         I read somewhere that being a student of liberal arts makes
                         one creative. So I took up
-                        <Aa href="https://www.goodreads.com/user/show/18624313-prabodh-agarwal"><span> reading</span></Aa>.
+                        <a href="https://www.goodreads.com/user/show/18624313-prabodh-agarwal"><span> reading</span></a>.
                     </p>
                     <p>
                         "<em>Willpower Instinct</em>". I hope to read this and find
@@ -51,5 +51,3 @@ const TheWillpowerInstinct = () => {
             </div>
         );
 }
-
-export default TheWillpowerInstinct;

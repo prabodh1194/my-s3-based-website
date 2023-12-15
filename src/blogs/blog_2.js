@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-const name = "Back to JS";
-const date = "Aug 19, 2018";
+export const name = "Back to JS";
+export const created_on = "Aug 19, 2018";
 
 
-const BackToJS = () => {
+export const mod = () => {
     return (
         <div className="about">
             <h1 className="monteserrat align left">Back to JS</h1>
@@ -45,5 +45,3 @@ const BackToJS = () => {
         </div>
     );
 }
-
-export default Back_to_JS;
