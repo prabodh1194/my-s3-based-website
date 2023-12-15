@@ -6,7 +6,7 @@ const ArticleLine = (props) => {
         <div className="d-flex justify-content-between">
             <span><a href={props.path}>{props.title}</a></span>
             <hr />
-            <span>{props.created_on}</span>
+            <time dateTime={props.created_on} style={{"width": "10ch"}}>{props.created_on}</time>
         </div>
     )
 }
