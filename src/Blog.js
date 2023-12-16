@@ -3,9 +3,9 @@ import React, {useEffect} from "react";
 
 const ArticleLine = (props) => {
     return (
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-between align-items-center">
             <span><a href={props.path}>{props.title}</a></span>
-            <hr className="flex-grow-1 mx-3"/>
+            <hr className="flex-grow-1 mx-2"/>
             <time dateTime={props.created_on}
                   style={{"width": "10ch", "fontVariantNumeric": "tabular-nums"}}>{props.created_on}</time>
         </div>
@@ -50,7 +50,7 @@ const Blog = (props) => {
         }).filter((x) => {
             return x !== null
         }).sort((a, b) => {
-            return b.props._created_on - a.props._created_on
+            return b.props._created_on.hash() - a.props._created_on.hash()
         }).slice((page - 1) * 10, page * 10)
         setRoutes(_routes)
     }, [blogs, z, query]);

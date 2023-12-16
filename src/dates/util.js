@@ -14,6 +14,11 @@ class MyDate {
     dash() {
         return `${this.year}-${this.month}-${this.day}`;
     }
+
+    hash() {
+        const _hash = +(this.year + this.month + this.day);
+        return _hash;
+    }
 }
 
 export {MyDate};

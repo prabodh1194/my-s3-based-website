@@ -1,19 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css';
 
 
-ReactDOM.render(
+import {createRoot} from 'react-dom/client';
+
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(
     <React.StrictMode>
         <div className="vh-100 m-auto" style={{
             "maxWidth": "70ch",
-            "padding": "2ch"
+            "padding": "1ch"
         }}>
             <App/>
         </div>
-    </React.StrictMode>,
-    document.getElementById('root')
+    </React.StrictMode>
 );
