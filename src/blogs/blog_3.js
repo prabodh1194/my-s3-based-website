@@ -7,7 +7,7 @@ export const created_on = new MyDate(2019, 2, 10);
 export const mod = () => {
         return (
             <div className="row">
-                <h1 className="align left">The Willpower Instinct</h1>
+                <h1 className="align left">{name}</h1>
                 <content className="align left">
                     <p>
                         Of late I've started reflecting on what my professional

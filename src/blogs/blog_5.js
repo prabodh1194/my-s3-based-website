@@ -6,10 +6,8 @@ export const created_on = new MyDate(2020, 1, 1);
 
 export const mod = () => {
         return (
-            <div className="about">
-                <h1 className="monteserrat align left">
-                    Another Decade Rolls
-                </h1>
+            <div className="row">
+                <h1 className="align left">{name}</h1>
                 <content className="monteserrat align left">
                     <p>
                         I find it pretty weird that 2020 is being called the new

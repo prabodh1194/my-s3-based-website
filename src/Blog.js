@@ -41,7 +41,7 @@ const Blog = (props) => {
                 return null;
             }
 
-            const path = `/blog/${_created_date.slash()}`
+            const path = `/blog/${_created_date.slash()}/${Component.name}`;
             return <ArticleLine title={Component.name}
                                 key={Component.name}
                                 path={path}

@@ -18,8 +18,8 @@ const App = () => {
 
     useEffect(() => {
         const _routes = blogs.map((Component, index) => {
-            const _created_date = new Date(Component.created_on)
-            const path = `/blog/${_created_date.getFullYear()}/${1 + _created_date.getMonth()}/${_created_date.getDate()}/${Component.name}`
+            const _created_date = Component.created_on
+            const path = `/blog/${_created_date.slash()}/${Component.name}`
 
             return <Route key={Component.name} exact path={path} Component={Component.mod}/>
         })

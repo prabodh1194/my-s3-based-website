@@ -5,8 +5,8 @@ export const name = "The Birthday Eve"
 export const created_on = new MyDate(2019, 8, 9);
 export const mod = () => {
     return (
-        <div className="about">
-            <h1 className="align left">The Birthday Eve</h1>
+        <div className="row">
+            <h1 className="align left">{name}</h1>
             <content className="align left">
                 <p>
                     Unlike what I promised last time, I don't think i'll be

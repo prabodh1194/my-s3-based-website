@@ -7,7 +7,7 @@ export const created_on = new MyDate(2018, 8, 8);
 export const mod = () => {
     return (
         <div className="row">
-            <h1 className="align left">Why?</h1>
+            <h1 className="align left">{name}</h1>
             <content className="align left">
                 <p>
                     This is some place to collect thoughts about what I discover,
