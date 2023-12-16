@@ -1,3 +1,5 @@
+import React from "react";
+
 function differenceInYearsAndMonths(date1, date2) {
     const startDate = new Date(date1);
     const endDate = new Date(date2);
@@ -13,8 +15,8 @@ function differenceInYearsAndMonths(date1, date2) {
 
 const About = () => {
     return (
-        <div className="row fs-5 fw-light">
-            <h1 className="align left">Hi Peeps,</h1>
+        <div className="row fs-6 fw-light">
+            <h3 className="align left fw-bold">Hi Peeps,</h3>
             <content className="align left">
                 <p>
                     Prabodh Agarwal is an engineer by qualification whose
