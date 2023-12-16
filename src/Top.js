@@ -6,11 +6,10 @@ import { faAt } from '@fortawesome/free-solid-svg-icons'
 
 
 class Top extends Component {
-
     render() {
         return (
             <>
-                <header className="d-flex align-items-center pt-4">
+                <header className="d-flex align-items-center pt-1">
                     <Link to="/" key="btn-hm" className="flex-grow-1">
                         <img
                             alt="home"
