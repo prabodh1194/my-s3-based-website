@@ -24,11 +24,11 @@ const App = () => {
             return <Route key={Component.name} exact path={path} element={
                 <div className="row fs-6 fw-light">
                     <h3 className="align left fw-bold">{Component.name}</h3>
-                    <span className="mt-1 mb-4 fw-lighter">Published on:
+                    <div className="mt-1 mb-4 fw-lighter">
                         <time dateTime={Component.created_on}>{Component.created_on.words()}</time>
-                    </span>
+                    </div>
                     <content className="align left">
-                    <Component.mod/>
+                        <Component.mod/>
                     </content>
                 </div>
             }
