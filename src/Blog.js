@@ -1,8 +1,6 @@
 import {useParams} from 'react-router-dom';
 import React, {useEffect} from "react";
 
-const PAGE_SIZE = 15;
-
 const ArticleLine = (props) => (
     <div className="d-flex justify-content-between align-items-center">
         <span><a href={props.path}>{props.title}</a></span>
