@@ -27,28 +27,30 @@ const Blog = (props) => {
     useEffect(() => {
         const page = query.get("page") || 1;
         const _routes = blogs.map((Component, _) => {
-            const _created_date = new Date(Component.created_on);
+            const _created_date = Component.created_on;
 
-            if (z.year && _created_date.getFullYear() !== +z.year) {
+            if (z.year && _created_date.year !== z.year) {
                 return null;
             }
 
-            if (z.month && 1 + _created_date.getMonth() !== +z.month) {
+            if (z.month && 1 + _created_date.month !== z.month) {
                 return null;
             }
 
-            if (z.date && _created_date.getDate() !== +z.date) {
+            if (z.date && _created_date.date !== z.date) {
                 return null;
             }
 
-            const path = `/blog/${_created_date.getFullYear()}/${1 + _created_date.getMonth()}/${_created_date.getDate()}/${Component.name}`
+            const path = `/blog/${_created_date.slash()}`
             return <ArticleLine title={Component.name}
+                                key={Component.name}
                                 path={path}
-                                created_on={new Date(Component.created_on).toISOString().slice(0, 10)}/>
+                                _created_on={Component.created_on}
+                                created_on={Component.created_on.dash()}/>
         }).filter((x) => {
             return x !== null
         }).sort((a, b) => {
-            return new Date(b.props.created_on) - new Date(a.props.created_on)
+            return b.props._created_on - a.props._created_on
         }).slice((page - 1) * 10, page * 10)
         setRoutes(_routes)
     }, [blogs, z, query]);

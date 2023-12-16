@@ -1,8 +1,9 @@
 import React from 'react';
+import {MyDate} from "../dates/util";
 
 
 export const name = "Back to JS";
-export const created_on = "Aug 19, 2018";
+export const created_on = new MyDate(2018, 8, 19);
 
 
 export const mod = () => {

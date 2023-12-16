@@ -1,7 +1,8 @@
 import React from 'react';
+import {MyDate} from "../dates/util";
 
 export const name = "The Willpower Instinct";
-export const created_on = "Feb 10, 2019";
+export const created_on = new MyDate(2019, 2, 10);
 
 export const mod = () => {
         return (
