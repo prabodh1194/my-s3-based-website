@@ -37,6 +37,28 @@ export const mod = () => {
                 process. The entire process of adding more pages to the website has also
                 been improved now, so pages & routes are deployed automatically now.
             </p>
+
+            <h6 className="fw-bold">Why host your own website?</h6>
+            <p>
+                Cuz it's fun! And it's not that hard. I have been using AWS for a while
+                now & I have been using terraform for a while now. But my experience
+                had been primarily third hand. I need to increase my level of exposure
+                & I respect the fact that hosting & building websites is generally a very
+                good starting point for learning new technologies. YMMV.
+            </p>
+            <p>
+                Based on my past experience at maintaining & building websites, I have also
+                come to appreciate the significance of CI/CD pipelines. My previous
+                pipeline was super complex. My current pipeline is relatively simpler.
+                It's still not perfect, but 99.999% better than what I had before. Chasing
+                the perfect pipeline is a never ending task. But so is life.
+            </p>
+            <p>
+                Today this page is being written in a ChatGPT era, so the github copilot
+                is helping me write this page. So writing long form content is not that
+                hard anymore. I feel I have put in enough effort to overcome the writer's
+                block. So I expect myself to write more often now. :)
+            </p>
         </>
     );
 }
