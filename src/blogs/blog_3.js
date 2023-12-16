@@ -35,8 +35,8 @@ export const mod = () => {
                 stepped inside those computer labs back in college<b>;</b> back
                 in intermediate<b>;</b> back in high school<b>;</b> back in middle school.
                 I read somewhere that being a student of liberal arts makes
-                one creative. So I took up
-                <a href="https://www.goodreads.com/user/show/18624313-prabodh-agarwal"><span> reading</span></a>.
+                one creative. So I took
+                up <a href="https://www.goodreads.com/user/show/18624313-prabodh-agarwal"><span>reading</span></a>.
             </p>
             <p>
                 "<em>Willpower Instinct</em>". I hope to read this and find

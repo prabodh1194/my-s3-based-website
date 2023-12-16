@@ -21,8 +21,8 @@ export const mod = () => {
                 enjoyed. AAAAnnd, i ended up getting another pair of Sony
                 noise cancelling Headphones later from office. Now I
                 have 2 too many headphone. Life. I'll keep one pair in
-                office and ramp up the frequency of
-                <a href="https://twitter.com/HowIBuiltThis"><span> Guy Raz's HIBT.</span></a>
+                office and ramp up the frequency
+                of <a href="https://twitter.com/HowIBuiltThis"><span>Guy Raz's HIBT</span></a>.
                 It is just insane, particularly the ones about AirBnB
                 & Reddit. There is one about WeWork as well. Lol! Considering
                 where they are now, and everything that happened in that

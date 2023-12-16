@@ -33,8 +33,8 @@ export const mod = () => {
                 spotify. Ok, that has nothing to do with my headphones, but I
                 don't mind attributing that behavior to my new headphones cuz
                 the habbit just happened to co-incide. A bigger and better
-                achievement has been that I've started listening to
-                <a href="https://twitter.com/prabodh_agarwal/status/1156587594387525632"><span> podcasts</span></a>.
+                achievement has been that I've started listening
+                to <a href="https://twitter.com/prabodh_agarwal/status/1156587594387525632"><span>podcasts</span></a>.
             </p>
             <p>
                 I was recently introduced to the board-game of Catan. It is
