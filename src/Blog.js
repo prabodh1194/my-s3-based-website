@@ -30,7 +30,7 @@ const Blog = () => {
                 return null;
             }
 
-            if (pathParams.month && 1 + _created_date.month !== pathParams.month) {
+            if (pathParams.month && _created_date.month !== pathParams.month) {
                 return null;
             }
 
