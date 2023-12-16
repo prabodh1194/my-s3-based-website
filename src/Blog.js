@@ -1,6 +1,8 @@
 import {useParams, useSearchParams} from 'react-router-dom';
 import React, {useEffect} from "react";
 
+const PAGE_SIZE = 15;
+
 const ArticleLine = (props) => {
     return (
         <div className="d-flex justify-content-between align-items-center">
@@ -51,7 +53,7 @@ const Blog = (props) => {
             return x !== null
         }).sort((a, b) => {
             return b.props._created_on.hash() - a.props._created_on.hash()
-        }).slice((page - 1) * 10, page * 10)
+        }).slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE)
         setRoutes(_routes)
     }, [blogs, z, query]);
 
