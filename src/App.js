@@ -4,6 +4,7 @@ import Top from './Top';
 import Main from './Main';
 import Blog from "./Blog";
 import About from "./About";
+import {BlogElement} from "./BlogElement";
 
 
 const App = () => {
@@ -21,18 +22,7 @@ const App = () => {
             const _created_date = Component.created_on
             const path = `/blog/${_created_date.slash()}/${Component.name.replace(/\W+/g, '-').toLowerCase()}`
 
-            return <Route key={Component.name} exact path={path} element={
-                <div className="row fs-6 fw-light">
-                    <h3 className="align left fw-bold">{Component.name}</h3>
-                    <div className="mt-1 mb-4 fw-lighter">
-                        <time dateTime={Component.created_on}>{Component.created_on.words()}</time>
-                    </div>
-                    <content className="align left">
-                        <Component.mod/>
-                    </content>
-                </div>
-            }
-            />
+            return <Route key={Component.name} exact path={path} element={<BlogElement component={Component}/>}/>
         })
         setRoutes(_routes)
     }, [blogs]);
