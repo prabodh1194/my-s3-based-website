@@ -1,0 +1,11 @@
+import React from 'react';
+import {MyDate} from "../dates/util";
+
+export const name = "This is a template blog";
+export const created_on = new MyDate(2023, 1, 1);
+
+export const mod = () => {
+    return (
+        <>This is a template blog</>
+    );
+}
