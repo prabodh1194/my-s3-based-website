@@ -43,7 +43,7 @@ const App = () => {
             <Routes>
                 <Route element={<Top/>}>
                     <Route exact path="/" element={<Main/>}/>
-                    <Route exact path="/about" element={<About/>}/>
+                    <Route exact path="/@me" element={<About/>}/>
                     <Route exact path="/blog" element={<Blog/>}/>
                     <Route exact path="/blog/:year" element={<Blog/>}/>
                     <Route exact path="/blog/:year/:month" element={<Blog/>}/>
