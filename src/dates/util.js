@@ -15,6 +15,14 @@ class MyDate {
         return `${this.year}-${this.month}-${this.day}`;
     }
 
+    words() {
+        const months = [
+            "January", "February", "March", "April", "May", "June", "July",
+            "August", "September", "October", "November", "December"
+        ];
+        return `${this.day} ${months[this.month - 1]}, ${this.year}`;
+    }
+
     hash() {
         const _hash = +(this.year + this.month + this.day);
         return _hash;

@@ -21,11 +21,21 @@ const App = () => {
             const _created_date = Component.created_on
             const path = `/blog/${_created_date.slash()}/${Component.name}`
 
-            return <Route key={Component.name} exact path={path} Component={Component.mod}/>
+            return <Route key={Component.name} exact path={path} element={
+                <div className="row fs-6 fw-light">
+                    <h3 className="align left fw-bold">{Component.name}</h3>
+                    <span className="mt-1 mb-4 fw-lighter">Published on:
+                        <time dateTime={Component.created_on}>{Component.created_on.words()}</time>
+                    </span>
+                    <content className="align left">
+                    <Component.mod/>
+                    </content>
+                </div>
+            }
+            />
         })
         setRoutes(_routes)
     }, [blogs]);
-
 
 
     return (
