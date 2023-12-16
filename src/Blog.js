@@ -38,7 +38,7 @@ const Blog = () => {
                 return null;
             }
 
-            const path = `/blog/${_created_date.slash()}/${Component.name}`;
+            const path = `/blog/${_created_date.slash()}/${Component.name.replace(/\W+/g, '-').toLowerCase()}`;
             return (
                 <ArticleLine
                     title={Component.name} key={Component.name}

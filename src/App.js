@@ -19,7 +19,7 @@ const App = () => {
     useEffect(() => {
         const _routes = blogs.map((Component, index) => {
             const _created_date = Component.created_on
-            const path = `/blog/${_created_date.slash()}/${Component.name}`
+            const path = `/blog/${_created_date.slash()}/${Component.name.replace(/\W+/g, '-').toLowerCase()}`
 
             return <Route key={Component.name} exact path={path} element={
                 <div className="row fs-6 fw-light">
