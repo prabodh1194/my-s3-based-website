@@ -6,6 +6,6 @@ export const created_on = new MyDate(2023, 1, 1);
 
 export const mod = () => {
     return (
-        <>This is a template blog</>
+        <p>This is a template blog</p>
     );
 }
