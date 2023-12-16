@@ -39,10 +39,10 @@ export const mod = () => {
             </p>
             <p>
                 I renewed my Amazon Prime to watch "The Family Man". It is good.
-                Then I forgot to cancel my subscription & it aut-renewed.
+                Then I forgot to cancel my subscription & it aut--renewed.
                 Seinfeld showed up on the suggestion list. I watched it.
-                And thenI just couldn't stop. Episode-after-edpisode,
-                season-after-season. O man is it a beauty. When S09 rolled
+                And then I just couldn't stop. Episode-after-episode,
+                season-after-season. O man! is it a beauty. When S09 rolled
                 in I was just depressed. It just left a hole in my life
                 which I'm currently filling up with YouTube videos of
                 Seinfeld. I just can't not make a Seinfeld reference anymore.
