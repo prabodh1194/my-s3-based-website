@@ -1,17 +1,20 @@
-import {useParams} from 'react-router-dom';
+import {useParams, useSearchParams} from 'react-router-dom';
 import React, {useEffect} from "react";
 
 const ArticleLine = (props) => {
     return (
         <div className="d-flex justify-content-between">
             <span><a href={props.path}>{props.title}</a></span>
-            <hr />
-            <time dateTime={props.created_on} style={{"width": "10ch"}}>{props.created_on}</time>
+            <hr className="flex-grow-1 mx-3"/>
+            <time dateTime={props.created_on}
+                  style={{"width": "10ch", "fontVariantNumeric": "tabular-nums"}}>{props.created_on}</time>
         </div>
     )
 }
 const Blog = (props) => {
     let z = useParams();
+    let [query, setSearchParams] = useSearchParams();
+
     const [blogs, setBlogs] = React.useState([])
     const [routes, setRoutes] = React.useState([])
 
@@ -22,6 +25,7 @@ const Blog = (props) => {
     }, []);
 
     useEffect(() => {
+        const page = query.get("page") || 1;
         const _routes = blogs.map((Component, _) => {
             const _created_date = new Date(Component.created_on);
 
@@ -43,15 +47,17 @@ const Blog = (props) => {
                                 created_on={new Date(Component.created_on).toISOString().slice(0, 10)}/>
         }).filter((x) => {
             return x !== null
-        })
+        }).sort((a, b) => {
+            return new Date(b.props.created_on) - new Date(a.props.created_on)
+        }).slice((page - 1) * 10, page * 10)
         setRoutes(_routes)
-    }, [blogs, z]);
+    }, [blogs, z, query]);
 
 
     return (
         <>
             <h3>Articles:</h3>
-            <div >
+            <div>
                 {routes.length > 0 ? routes : <span>No articles found</span>}
             </div>
         </>
