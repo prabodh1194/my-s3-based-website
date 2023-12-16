@@ -40,7 +40,6 @@ const App = () => {
 
     return (
         <Router>
-
             <Routes>
                 <Route element={<Top/>}>
                     <Route exact path="/" element={<Main/>}/>
