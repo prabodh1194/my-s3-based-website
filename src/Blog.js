@@ -52,11 +52,12 @@ const Blog = () => {
             x => x
         ).sort(
             (a, b) => b.props._created_on.hash() - a.props._created_on.hash()
-        );
-
-        if (_routes.length > 0) {
-            _routes.splice(0, 0, <h3>{_routes[0].props._created_on.year}</h3>)
-        }
+        ).flatMap((x, i, _arr) => {
+            if (i === 0 || x.props._created_on.year !== _arr[i - 1].props._created_on.year) {
+                return [<h4 className="fw-bold text-center my-4">{x.props._created_on.year}</h4>, x];
+            }
+            return [x];
+        });
 
         setRoutes(_routes);
     }, [blogs, pathParams]);
