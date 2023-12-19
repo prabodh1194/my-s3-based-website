@@ -13,7 +13,7 @@ root.render(
     <React.StrictMode>
         <div className="vh-100 m-auto" style={{
             "maxWidth": "70ch",
-            "padding": "1ch"
+            "padding": "1ch",
         }}>
             <App/>
         </div>
