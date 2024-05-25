@@ -10,7 +10,7 @@ export const BlogElement = ({component}) => {
         let text = contentRef.current.innerText;
 
         setReadWords(text.trim().split(/\s+/).length);
-    }, []);
+    }, [contentRef]);
 
     return (
         <div className="row fs-5 fw-light">
