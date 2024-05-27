@@ -29,11 +29,9 @@ export const mod = () => {
                 seen this diagram.
             </p>
             <img className="img-fluid" src={mds} alt="Big Data Stack" />
+            <p></p>
             <p>
-
-            </p>
-            <p>
-                Well this is the <span className="rainbow">stack</span>!. We need to immerse ourselves in it one layer
+                Well this is the <span className="rainbow">stack</span>! We need to immerse ourselves in it one layer
                 at a time.
             </p>
         </>
