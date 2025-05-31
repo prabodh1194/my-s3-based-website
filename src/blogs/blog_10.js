@@ -1,5 +1,4 @@
 import React from 'react';
-import mds from './images/big_data_stack.png';
 import {MyDate} from "../dates/util";
 
 export const name = "How to do LLMs for dummys";
