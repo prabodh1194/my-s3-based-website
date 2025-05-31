@@ -30,9 +30,9 @@ class Top extends Component {
                 </header>
                 <hr/>
                 <Outlet/>
-                <footer className="mt-5">
-                    <hr className="mt-5"/>
-                    <div className="mt-5 d-flex px-3">
+                <footer className="mt-3">
+                    <hr className="mt-3"/>
+                    <div className="mt-3 d-flex px-3">
                         <span className="text-muted flex-grow-1">© {new Date().getFullYear()} Prabodh Agarwal</span>
                         <div className="d-flex justify-content-evenly gap-3">
                             <Link to="//twitter.com/prabodh_agarwal" className="">
