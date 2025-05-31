@@ -44,7 +44,7 @@ resource "aws_cloudfront_distribution" "CFDistribution" {
   aliases = [aws_route53_zone.net_website_zone.name, aws_route53_zone.com_website_zone.name]
 
   viewer_certificate {
-    acm_certificate_arn = "arn:aws:acm:us-east-1:854955106828:certificate/a05fcd43-6e80-4a9e-b20d-f6c60421a8c4"
+    acm_certificate_arn = "arn:aws:acm:us-east-1:854955106828:certificate/f328be61-4f8a-4837-b92a-df1b7c76411e"
     minimum_protocol_version = "TLSv1.2_2021"
     ssl_support_method       = "sni-only"
   }

@@ -9,7 +9,6 @@ terraform {
 
 resource "aws_s3_bucket" "terraform_state" {
   bucket = "pbd-terraform-state-bucket"
-  acl    = "private"
 
   tags = {
     Name        = "Terraform State Bucket"
