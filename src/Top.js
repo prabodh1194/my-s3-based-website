@@ -33,7 +33,7 @@ class Top extends Component {
                 <footer className="mt-5">
                     <hr className="mt-5"/>
                     <div className="mt-5 d-flex px-3">
-                        <span className="text-muted flex-grow-1">© 2023 - {new Date().getFullYear()} Prabodh Agarwal</span>
+                        <span className="text-muted flex-grow-1">© {new Date().getFullYear()} Prabodh Agarwal</span>
                         <div className="d-flex justify-content-evenly gap-3">
                             <Link to="//twitter.com/prabodh_agarwal" className="">
                                 <FontAwesomeIcon style={{"color": "black"}} icon={faTwitter} />
