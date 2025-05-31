@@ -8,6 +8,10 @@ const PinkEM = ({children}) => (
     <em style={{color: '#e91e63'}}>{children}</em>
 );
 
+const MonoText = ({children}) => (
+    <span style={{fontFamily: 'monospace', fontSize: 'smaller', fontWeight: 'lighter'}}>{children}</span>
+);
+
 export const mod = () => {
     return (
         <>
@@ -31,6 +35,17 @@ export const mod = () => {
                     <li><PinkEM>Retrieval Augmented Generation (RAG)</PinkEM> - <span>A way to use LLMs to generate text based on a retrieval system</span></li>
                     <li><PinkEM>Prompt Engineering</PinkEM> - <span>A way to design prompts for LLMs to get the desired output</span></li>
                 </ul>
+            </p>
+            <p>
+                My first step is to fetch a PDF of the annual report of a company and convert it to text. I will use <MonoText>PyMuPDF</MonoText>
+                to extract text from the PDF. This extraction is not perfect, but for starters, I don't want to get distracted by the quality of the text extraction.
+                <br/>
+                For my embedding, I am using <MonoText>Alibaba-NLP/gte-Qwen2-7B-instruct</MonoText> model. I am running it on a <MonoText>g6e.xlarge</MonoText> EC2 
+                instance on AWS using <MonoText>vllm</MonoText>.
+                My application is using the <MonoText>OpenAPI</MonoText> client to interact with the model.
+            </p>
+            <p>
+                I am using the <MonoText>chromadb</MonoText> vector database to store the embeddings.
             </p>
         </>
     );
