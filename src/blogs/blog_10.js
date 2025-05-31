@@ -9,10 +9,14 @@ export const mod = () => {
         <>
             <p>
             I am finally figuring out how to use LLMs for my case. For starters, I am selecting a design problem statement to prototype using LLMs.
+            </p>
+            <p>
             I am going to parse Annual Reports of companies and index them. Idea is to send in general queries and understand which companies do what.
-
+            </p>
+            <p>
             For example, I want to figure out companies that are well positioned to take advantage of electronics component manufacturing in India.
-            I will send in a query like "Which companies are well positioned to take advantage of electronics component manufacturing in India?" and the LLM should return a list of companies that have mentioned this in their annual reports.
+            I will send in a query like <span className='rainbow'>"Which companies are well positioned to take advantage of electronics component manufacturing in India?"</span> and the LLM should return a list of companies that have mentioned this in their annual reports.
+            🤑💰🤑
             </p>
         </>
     );
