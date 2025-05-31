@@ -1,5 +1,5 @@
 resource "aws_route53_zone" "net_website_zone" {
-  name = "prabodhagarwal.net"
+  name = "openn.ai"
 }
 
 # Route 53 DNS Record
