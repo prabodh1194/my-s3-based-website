@@ -1,17 +1,9 @@
 import React from 'react';
 import {MyDate} from "../dates/util";
+import {PinkEM, MonoText} from "../formats/text";
 
 export const name = "How to do LLMs for dummys";
 export const created_on = new MyDate(2025, 5, 31);
-
-const PinkEM = ({children}) => (
-    <em style={{color: '#e91e63'}}>{children}</em>
-);
-
-const MonoText = ({children}) => (
-    <span style={{fontFamily: 'monospace', fontSize: 'smaller', fontWeight: 'lighter'}}>{children}</span>
-);
-
 export const mod = () => {
     return (
         <>
