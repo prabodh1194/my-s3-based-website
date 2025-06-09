@@ -2,7 +2,7 @@ import React from 'react';
 import {MyDate} from "../dates/util";
 import { MonoText, PinkEM } from '../formats/text';
 
-export const name = "How to do LLMs while still being a dummy";
+export const name = "How to do LLMs for dummys - Part 2";
 export const created_on = new MyDate(2025, 6, 9);
 
 export const mod = () => {
