@@ -46,6 +46,9 @@ export const mod = () => {
             <p>
                 I am using the <MonoText>chromadb</MonoText> vector database to store the embeddings.
             </p>
+            <p>
+                I'll keep you posted on my progress. I am eager to see how this works out as well.
+            </p>
         </>
     );
 }
