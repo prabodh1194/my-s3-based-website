@@ -29,7 +29,6 @@ class Top extends Component {
                         );
                     })}
                 </header>
-                <hr className="neon-border"/>
                 <Outlet/>
                 <footer className="mt-3">
                     <div className="footer-content px-3">
