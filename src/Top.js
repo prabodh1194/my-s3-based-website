@@ -8,23 +8,22 @@ import { faAt } from '@fortawesome/free-solid-svg-icons'
 class Top extends Component {
     render() {
         const navItems = ["blog", "@me"];
-        
+
         return (
-            <>
-                <header className="d-flex align-items-center pt-1">
+            <div className="app-container d-flex flex-column min-vh-100">
+                <header>
                     <Link to="/" key="btn-hm" className="flex-grow-1">
-                        <button className="nav-btn fw-light fs-5">
+                        <span className="nav-text fw-light fs-5">
                             <span className="fst-italic">/</span>
-                        </button>
+                        </span>
                     </Link>
                     {navItems.map((el, idx) => {
                         return (<Link
-                                className="ps-2 align-items-center"
                                 to={`/${el.toLowerCase()}`}
                                 key={`btn-${idx}`}>
-                                <button className="nav-btn fw-light fs-5">
+                                <span className="nav-text fw-light fs-5">
                                     <span className="cyber-text">{el}</span>
-                                </button>
+                                </span>
                             </Link>
                         );
                     })}
@@ -33,10 +32,7 @@ class Top extends Component {
                     <Outlet/>
                 </div>
                 <footer className="mt-3">
-                    <div className="footer-content px-3">
-                        <div className="footer-copyright cyber-text">
-                            © {new Date().getFullYear()} Prabodh Agarwal
-                        </div>
+                    <div className="footer-content">
                         <div className="footer-links">
                             <Link to="//twitter.com/prabodh_agarwal">
                                 <FontAwesomeIcon className="fa-icon" icon={faTwitter} />
@@ -54,9 +50,12 @@ class Top extends Component {
                                 <FontAwesomeIcon className="fa-icon" icon={faAt} />
                             </Link>
                         </div>
+                        <div className="footer-copyright cyber-text">
+                            © {new Date().getFullYear()} Prabodh Agarwal
+                        </div>
                     </div>
                 </footer>
-            </>
+            </div>
         );
     }
 }
