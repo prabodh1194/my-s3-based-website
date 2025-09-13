@@ -54,7 +54,7 @@ const Blog = () => {
         ).flatMap((x, i, _arr) => {
             if (i === 0 || x.props._created_on.year !== _arr[i - 1].props._created_on.year) {
                 return [
-                    <h4 key={x.props._created_on.year} className="fw-bold text-center my-4">
+                    <h4 key={x.props._created_on.year} className="fw-bold text-center my-3">
                         {x.props._created_on.year}
                     </h4>,
                     x
@@ -67,7 +67,7 @@ const Blog = () => {
     }, [blogs, pathParams]);
 
     return (
-        <div className="px-1">
+        <div className="px-1 py-2">
             <h4 className="fw-bold">Articles:</h4>
             <div>
                 {routes.length > 0 ? routes : <span>No articles found</span>}

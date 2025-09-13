@@ -29,7 +29,9 @@ class Top extends Component {
                         );
                     })}
                 </header>
-                <Outlet/>
+                <div className="container-fluid px-2 flex-grow-1">
+                    <Outlet/>
+                </div>
                 <footer className="mt-3">
                     <div className="footer-content px-3">
                         <div className="footer-copyright cyber-text">
