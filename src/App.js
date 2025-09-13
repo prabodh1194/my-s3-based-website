@@ -5,6 +5,7 @@ import Main from './Main';
 import Blog from "./Blog";
 import About from "./About";
 import {BlogElement} from "./BlogElement";
+import ColorPalette from "./ColorPalette";
 
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
                     <Route exact path="/blog/:year" element={<Blog/>}/>
                     <Route exact path="/blog/:year/:month" element={<Blog/>}/>
                     <Route exact path="/blog/:year/:month/:date" element={<Blog/>}/>
+                    <Route exact path="/colors" element={<ColorPalette/>}/>
                     <Route exact path="/resume"
                            element={() => window.location = 'https://drive.google.com/open?id=1dwvo4DMUiaBLmgXu1QsH5ipHtCaogrSU'}/>
                     {routes}

@@ -56,7 +56,7 @@ const About = () => {
                 </p>
                 <p>
                     Each & every career switch has literally been a life changing experience for me &
-                    I am <span style={{"color": "var(--bs-gray-600)"}}>grateful</span>. I would love
+                    I am <span style={{"color": "var(--text-secondary)"}}>grateful</span>. I would love
                     to talk about everything I have a perspective & everything
                     else I have an opinion on & everything else as well. :-).
                 </p>

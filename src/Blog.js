@@ -2,10 +2,11 @@ import {useParams} from 'react-router-dom';
 import React, {useEffect} from "react";
 
 const ArticleLine = (props) => (
-    <div className="d-flex justify-content-between align-items-center">
+    <div className="d-flex justify-content-between align-items-center article-line">
         <span><a href={props.path}>{props.title}</a></span>
         <hr className="flex-grow-1 ms-2 me-3"/>
         <time dateTime={props.created_on}
+              className="article-date"
               style={{"width": "10ch", "fontVariantNumeric": "tabular-nums"}}>{props.created_on}</time>
     </div>
 );

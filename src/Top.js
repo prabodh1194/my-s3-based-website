@@ -7,48 +7,50 @@ import { faAt } from '@fortawesome/free-solid-svg-icons'
 
 class Top extends Component {
     render() {
+        const navItems = ["blog", "@me"];
+        
         return (
             <>
                 <header className="d-flex align-items-center pt-1">
                     <Link to="/" key="btn-hm" className="flex-grow-1">
-                        <button className="btn fw-light fs-5">
+                        <button className="nav-btn fw-light fs-5">
                             <span className="fst-italic">/</span>
                         </button>
                     </Link>
-                    {["blog", "@me"].map((el, idx) => {
+                    {navItems.map((el, idx) => {
                         return (<Link
                                 className="ps-2 align-items-center"
                                 to={`/${el.toLowerCase()}`}
                                 key={`btn-${idx}`}>
-                                <button className="btn fw-light fs-5">
-                                    {el}
+                                <button className="nav-btn fw-light fs-5">
+                                    <span className="cyber-text">{el}</span>
                                 </button>
                             </Link>
                         );
-                    })
-                    }
+                    })}
                 </header>
-                <hr/>
+                <hr className="neon-border"/>
                 <Outlet/>
                 <footer className="mt-3">
-                    <hr className="mt-3"/>
-                    <div className="mt-3 d-flex px-3">
-                        <span className="text-muted flex-grow-1">© {new Date().getFullYear()} Prabodh Agarwal</span>
-                        <div className="d-flex justify-content-evenly gap-3">
-                            <Link to="//twitter.com/prabodh_agarwal" className="">
-                                <FontAwesomeIcon style={{"color": "black"}} icon={faTwitter} />
+                    <div className="footer-content px-3">
+                        <div className="footer-copyright cyber-text">
+                            © {new Date().getFullYear()} Prabodh Agarwal
+                        </div>
+                        <div className="footer-links">
+                            <Link to="//twitter.com/prabodh_agarwal">
+                                <FontAwesomeIcon className="fa-icon" icon={faTwitter} />
                             </Link>
-                            <Link to="//github.com/prabodh1194" className="">
-                                <FontAwesomeIcon style={{"color": "black"}} icon={faGithub} />
+                            <Link to="//github.com/prabodh1194">
+                                <FontAwesomeIcon className="fa-icon" icon={faGithub} />
                             </Link>
-                            <Link to="//linkedin.com/in/prabodh-agarwal" className="">
-                                <FontAwesomeIcon style={{"color": "black"}} icon={faLinkedinIn} />
+                            <Link to="//linkedin.com/in/prabodh-agarwal">
+                                <FontAwesomeIcon className="fa-icon" icon={faLinkedinIn} />
                             </Link>
-                            <Link to="//medium.com/@pbd_94" className="">
-                                <FontAwesomeIcon style={{"color": "black"}} icon={faMedium} />
+                            <Link to="//medium.com/@pbd_94">
+                                <FontAwesomeIcon className="fa-icon" icon={faMedium} />
                             </Link>
                             <Link to="mailto:prabodh1194@gmail.com?subject=Hi from your blog">
-                                <FontAwesomeIcon style={{"color": "black"}} icon={faAt} />
+                                <FontAwesomeIcon className="fa-icon" icon={faAt} />
                             </Link>
                         </div>
                     </div>

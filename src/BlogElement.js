@@ -14,9 +14,8 @@ export const BlogElement = ({component}) => {
 
     return (
         <div className="row fs-5 fw-light">
-            <h3 className="align left fw-bold">{component.name}</h3>
-            <div className="mt-1 mb-4 fw-lighter">
-                <time dateTime={component.created_on}>{component.created_on.words()}</time>
+            <h3 className="align left fw-bold rainbow">{component.name}</h3>
+            <div className="mt-1 mb-4 fw-lighter" style={{"color": "var(--text-tertiary)"}}>\n                <time dateTime={component.created_on}>{component.created_on.words()}</time>
                 <span className="mx-2">•</span>
                 <span>{readWords} words</span>
             </div>
