@@ -13,7 +13,7 @@ export const BlogElement = ({component}) => {
     }, [contentRef]);
 
     return (
-        <div className="row fs-5 fw-light">
+        <div className="row fs-5 fw-light pt-4">
             <h3 className="align left fw-bold rainbow">{component.name}</h3>
             <div className="mt-1 mb-4 fw-lighter" style={{"color": "var(--text-tertiary)"}}>\n                <time dateTime={component.created_on}>{component.created_on.words()}</time>
                 <span className="mx-2">•</span>
