@@ -44,7 +44,7 @@ const Blog = () => {
                 <ArticleLine
                     title={Component.name} key={Component.name}
                     path={path} _created_on={Component.created_on}
-                    created_on={Component.created_on.dash()}
+                    created_on={Component.created_on.monthWords()}
                 />
             );
         }).filter(
