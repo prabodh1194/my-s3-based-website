@@ -1,117 +1,52 @@
 /* Cyberpunk theme styles for stock analysis - keeping it subtle */
 
-.cyberpunk-theme {
-  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
-}
-
-.cyberpunk-theme .cyber-text {
+.stock-analysis .cyber-text {
   color: rgba(0, 136, 255, 0.9);
   font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
 }
 
-.cyberpunk-theme .cyber-text-light {
+.stock-analysis .cyber-text-light {
   color: var(--text-secondary);
 }
 
-.cyberpunk-theme .cyber-text-green {
+.stock-analysis .cyber-text-green {
   color: rgba(0, 255, 136, 0.9);
 }
 
-.cyberpunk-theme .cyber-text-yellow {
+.stock-analysis .cyber-text-yellow {
   color: rgba(255, 255, 0, 0.9);
 }
 
-.cyberpunk-theme .cyber-text-red {
+.stock-analysis .cyber-text-red {
   color: rgba(255, 0, 85, 0.9);
 }
 
-.cyberpunk-theme .cyber-text-neon {
-  color: rgba(0, 255, 255, 0.9);
-  font-weight: normal;
-}
-
+.stock-analysis .cyber-text-neon,
 .highlighted-company {
   color: rgba(0, 255, 255, 0.9);
   font-weight: normal;
 }
 
-.border-cyber {
-  border-radius: var(--border-radius);
-}
-
-.border-cyber-green {
-  border-radius: var(--border-radius);
-}
-
-.border-cyber-yellow {
-  border-radius: var(--border-radius);
-}
-
-.border-cyber-red {
-  border-radius: var(--border-radius);
-}
-
-.border-bottom-cyber {
+.stock-analysis .border-bottom-cyber {
   border-bottom: 1px solid var(--cyber-dark-accent);
 }
 
-.border-bottom-cyber-green {
+.stock-analysis .border-bottom-cyber-green {
   border-bottom: 1px solid rgba(0, 255, 136, 0.2);
   padding-bottom: 10px;
 }
 
-.border-bottom-cyber-yellow {
+.stock-analysis .border-bottom-cyber-yellow {
   border-bottom: 1px solid rgba(255, 255, 0, 0.2);
   padding-bottom: 10px;
 }
 
-.border-bottom-cyber-red {
+.stock-analysis .border-bottom-cyber-red {
   border-bottom: 1px solid rgba(255, 0, 85, 0.2);
   padding-bottom: 10px;
 }
 
-.market-overview {
-  border-radius: var(--border-radius);
-}
-
-.glitch-text {
-  font-family: 'Menlo', 'Monaco', 'Courier New', monospace;
-}
-
-.stock-item {
-  transition: all 0.3s ease;
-  border-radius: var(--border-radius);
-}
-
-.stock-item:hover {
-  transform: translateY(-0.2px);
-}
-
-.recommendation-section {
-  border-radius: var(--border-radius);
-  transition: all 0.3s ease;
-}
-
-.recommendation-section:hover {
-  box-shadow: 0 0 1px rgba(0, 136, 255, 0.02);
-}
-
-.analysis-card {
-  transition: all 0.3s ease;
-  border-radius: var(--border-radius);
-  cursor: pointer;
-}
-
-.analysis-card:hover {
-  transform: translateY(-0.5px);
-  box-shadow: 0 0 2px rgba(0, 136, 255, 0.05);
-}
-
-.company-name {
+.stock-analysis .company-name {
   font-weight: normal;
   letter-spacing: 0.2px;
-}
-
-.header-consistent {
-  font-size: 1.2rem;
 }
