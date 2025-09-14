@@ -313,24 +313,28 @@ main {
     padding-right: 1rem;
   }
 
-  body {
-    font-size: 0.85rem;
+  body,
+  .content-area .fs-5,
+  .content-area .fs-5.fw-light,
+  .fs-5,
+  .fs-5.fw-light {
+    font-size: 0.95rem !important;
   }
 
   h1 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   h3 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 
   h4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -341,24 +345,28 @@ main {
     padding-right: 0.75rem;
   }
 
-  body {
-    font-size: 0.8rem;
+  body,
+  .content-area .fs-5,
+  .content-area .fs-5.fw-light,
+  .fs-5,
+  .fs-5.fw-light {
+    font-size: 0.9rem !important;
   }
 
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   h2 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   h4 {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
 }
 
