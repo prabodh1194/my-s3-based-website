@@ -25,7 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "precommit": "pre-commit run --all-files"
+    "precommit": "pre-commit run --all-files",
+    "update-stock-list": "node scripts/update-stock-list.js"
   },
   "eslintConfig": {
     "extends": [
