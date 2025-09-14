@@ -3,6 +3,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css';
+import './StockAnalysis.css';
 
 
 import {createRoot} from 'react-dom/client';
