@@ -1,0 +1,125 @@
+{
+  "buy_stocks": [
+    {
+      "company": "ADANI POWER LTD",
+      "rationale": "Positive sentiment driven by a $3B investment through a Power Purchase Agreement, indicating strong revenue potential and operational expansion."
+    },
+    {
+      "company": "GODREJ CONSUMER PRODUCTS LTD",
+      "rationale": "Recognized as one of the fastest-growing establishments with favorable regulatory changes like GST rationalization expected to boost growth and operational efficiency."
+    },
+    {
+      "company": "INDUS TOWERS LTD",
+      "rationale": "Bharti Airtel's increased stake signals strong investor confidence and potential strategic alignment, likely to positively influence the stock price."
+    },
+    {
+      "company": "INDUSIND BANK LTD",
+      "rationale": "Highlighted as a preferred bet among foreign institutional investors (FIIs), indicating positive market sentiment and potential inflows."
+    },
+    {
+      "company": "INFO EDGE (INDIA) LTD",
+      "rationale": "Recommended as a buy with potential upside of up to 22%, reflecting positive market sentiment and possible near-term price appreciation."
+    },
+    {
+      "company": "JIO FINANCIAL SERVICES LTD",
+      "rationale": "Strategic partnership with Allianz positions the company for expansion in the reinsurance sector, potentially driving revenue growth and enhancing credibility."
+    },
+    {
+      "company": "LUPIN LTD",
+      "rationale": "Target price upgrade and 'Buy' recommendation by Investec reflect improved investor sentiment and potential for short-term appreciation."
+    },
+    {
+      "company": "TATA CONSULTANCY SERVICES LTD",
+      "rationale": "Positive analyst recommendation is likely to boost investor confidence and drive short-term demand for the stock."
+    },
+    {
+      "company": "TRENT LTD",
+      "rationale": "Growing advertising spends and influencer collaborations in the apparel sector suggest improved sales and market positioning."
+    },
+    {
+      "company": "ULTRATECH CEMENT LTD",
+      "rationale": "Aligned with growing demand for green building materials driven by sustainability trends and regulatory support, indicating medium-term revenue potential."
+    },
+    {
+      "company": "VEDANTA LTD",
+      "rationale": "Reported best-ever financial performance, signaling strong earnings growth and operational efficiency that is likely to boost investor sentiment."
+    }
+  ],
+  "hold_stocks": [
+    {
+      "company": "ADANI ENTERPRISES LTD",
+      "rationale": "No relevant news impact on operations or financial performance; neutral sentiment with moderate confidence."
+    },
+    {
+      "company": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD",
+      "rationale": "Minor strategic acquisition indicates growth initiatives but with limited financial impact; neutral sentiment with moderate confidence."
+    },
+    {
+      "company": "BHARTI AIRTEL LTD",
+      "rationale": "No specific information about company performance; neutral sentiment due to lack of actionable insights."
+    },
+    {
+      "company": "CANARA BANK",
+      "rationale": "No direct material impact from news articles; neutral sentiment with high confidence due to unrelated content."
+    },
+    {
+      "company": "CG POWER & INDUSTRIAL SOLUTIONS LTD",
+      "rationale": "Technical breakout suggests positive momentum but lacks fundamental news; neutral sentiment with moderate confidence."
+    },
+    {
+      "company": "COAL INDIA LTD",
+      "rationale": "No direct impact from news articles; neutral sentiment with moderate confidence due to unrelated content."
+    },
+    {
+      "company": "CUMMINS INDIA LTD",
+      "rationale": "Article lacks specific company-related information; neutral sentiment due to absence of actionable insights."
+    },
+    {
+      "company": "LIFE INSURANCE CORPORATION OF INDIA",
+      "rationale": "No material impact from news articles; neutral sentiment with very high confidence due to unrelated content."
+    },
+    {
+      "company": "MAHINDRA & MAHINDRA LTD",
+      "rationale": "Positive macroeconomic environment for auto stocks provides generalized support; neutral sentiment with moderate confidence."
+    },
+    {
+      "company": "MARUTI SUZUKI INDIA LTD",
+      "rationale": "Auto sector tailwinds cited by Citi provide generalized positive impact; neutral sentiment due to lack of company-specific developments."
+    },
+    {
+      "company": "PUNJAB NATIONAL BANK",
+      "rationale": "No direct material impact from news articles; neutral sentiment with moderate confidence."
+    },
+    {
+      "company": "STATE BANK OF INDIA",
+      "rationale": "Mildly positive sentiment driven by strategic developments and leadership changes, but no major earnings signals; hold with high confidence."
+    }
+  ],
+  "sell_stocks": [
+    {
+      "company": "ADANI GREEN ENERGY LTD",
+      "rationale": "Negative sentiment due to regulatory challenges with grid access revocation for 17 GW projects, posing significant operational and revenue risks."
+    },
+    {
+      "company": "ASIAN PAINTS LTD",
+      "rationale": "Antitrust inquiry introduces regulatory and legal risks, negatively impacting investor confidence and sentiment."
+    },
+    {
+      "company": "JSW ENERGY LTD",
+      "rationale": "Regulatory setbacks from grid access revocation for clean energy projects create uncertainty around project viability and revenue recognition."
+    },
+    {
+      "company": "SUZLON ENERGY LTD",
+      "rationale": "Significant 34% decline from one-year high indicates negative market sentiment and investor caution without positive catalysts."
+    },
+    {
+      "company": "SWIGGY LTD",
+      "rationale": "Perceived competitive disadvantage against Urban Company and potential investor preference shift suggest relative underperformance concerns."
+    }
+  ],
+  "market_trends": "The market shows mixed sentiment with a focus on regulatory developments, particularly in the renewable energy sector. Auto stocks are benefiting from macroeconomic tailwinds, while some financial institutions are gaining from strategic investor confidence. Companies in the consumer and technology sectors are seeing positive momentum from analyst recommendations and market positioning strategies.",
+  "strong_opportunities": "Strong buy opportunities include VEDANTA LTD (best-ever financial performance) and ADANI POWER LTD ($3B investment). Strong sell signals are evident in ADANI GREEN ENERGY LTD and JSW ENERGY LTD due to regulatory setbacks in the renewable energy space.",
+  "high_confidence_notes": "STATE BANK OF INDIA (confidence score 100) shows consistent neutral sentiment with strategic developments supporting stability. LIFE INSURANCE CORPORATION OF INDIA (confidence score 60) remains unaffected by unrelated market news. CANARA BANK (confidence score 30) also shows no material impact from current news flow. These high-confidence scores indicate reliable neutrality in sentiment analysis due to lack of direct company-specific developments.",
+  "analysis_date": "2025-09-14",
+  "total_companies_analyzed": 28
+}
