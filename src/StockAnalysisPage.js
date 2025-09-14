@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo, useCallback } from 'react';
 import { useParams } from 'react-router-dom';
 
 const StockAnalysisPage = () => {
@@ -29,6 +29,42 @@ const StockAnalysisPage = () => {
         }
     }, [date]);
 
+    // Create regex patterns once and reuse them
+    const companyPatterns = useMemo(() => {
+        if (!analysisData) return [];
+
+        const allCompanies = [
+            ...analysisData.buy_stocks,
+            ...analysisData.hold_stocks,
+            ...analysisData.sell_stocks
+        ];
+
+        return allCompanies.map(company => {
+            const companyName = company.company;
+            const escapedCompanyName = companyName.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&');
+            return {
+                pattern: new RegExp(`\\b${escapedCompanyName}\\b`, 'g'),
+                name: companyName
+            };
+        });
+    }, [analysisData]);
+
+    // Function to highlight company names in text
+    const highlightCompanies = useCallback((text) => {
+        if (!text) return text;
+
+        let highlightedText = text;
+
+        companyPatterns.forEach(({pattern, name}) => {
+            highlightedText = highlightedText.replace(
+                pattern,
+                `<span class="highlighted-company">${name}</span>`
+            );
+        });
+
+        return highlightedText;
+    }, [companyPatterns]);
+
     if (loading) {
         return <div className="stock-analysis text-center pt-5"><div className="cyber-text">Loading analysis data...</div></div>;
     }
@@ -41,36 +77,10 @@ const StockAnalysisPage = () => {
         return <div className="stock-analysis text-center pt-5"><div className="cyber-text">No data available</div></div>;
     }
 
-    // Function to highlight company names in text
-    const highlightCompanies = (text) => {
-        if (!text) return text;
-
-        let highlightedText = text;
-
-        // Highlight company names from all sections
-        const allCompanies = [
-            ...analysisData.buy_stocks,
-            ...analysisData.hold_stocks,
-            ...analysisData.sell_stocks
-        ];
-
-        allCompanies.forEach(company => {
-            const companyName = company.company;
-            // Escape special regex characters in company names
-            const escapedCompanyName = companyName.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
-            highlightedText = highlightedText.replace(
-                new RegExp(`\\\\b${escapedCompanyName}\\\\b`, 'g'),
-                `<span class="highlighted-company">${companyName}</span>`
-            );
-        });
-
-        return highlightedText;
-    };
-
     return (
         <div className="stock-analysis fs-5 fw-light pt-4">
             <h3 className="align left fw-bold cyber-text">TOP 100 INDIAN STOCKS ANALYSIS</h3>
-            <div className="mt-1 mb-4 fw-lighter" style={{color: "var(--text-tertiary)"}}>
+            <div className="mt-1 mb-4 fw-lighter" style={{"color": "var(--text-tertiary)"}}>
                 <time dateTime={analysisData.analysis_date}>{analysisData.analysis_date}</time>
                 <span className="mx-2">•</span>
                 <span>Stock Analysis Report</span>
