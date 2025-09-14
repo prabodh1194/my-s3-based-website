@@ -67,7 +67,7 @@ const Blog = () => {
     }, [blogs, pathParams]);
 
     return (
-        <div className="px-1 py-2 pt-4">
+        <div className="pt-4">
             <h4 className="fw-bold">Articles:</h4>
             <div>
                 {routes.length > 0 ? routes : <span>No articles found</span>}
