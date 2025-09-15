@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const CalendarView = () => {
     // Hardcoded list of available stock analysis dates
     const availableDates = [
+        '2025-09-15',
         '2025-09-14',
         '2025-09-07'
     ];
