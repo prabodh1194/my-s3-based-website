@@ -1,0 +1,121 @@
+{
+  "buy_stocks": [
+    {
+      "company": "ADANI POWER LTD",
+      "rationale": "Positive sentiment driven by a $3B Power Purchase Agreement for the Bhagalpur plant, indicating significant revenue potential and operational expansion."
+    },
+    {
+      "company": "AU SMALL FINANCE BANK LTD",
+      "rationale": "Foreign institutional investor (FII) confidence noted, suggesting positive short-term outlook and potential stock price appreciation."
+    },
+    {
+      "company": "INDUSIND BANK LTD",
+      "rationale": "Included as one of the two bank stocks that FIIs are betting on, indicating positive investor sentiment and potential inflows."
+    },
+    {
+      "company": "INFO EDGE (INDIA) LTD",
+      "rationale": "Recommended as a 'buy' with up to 22% upside potential, likely to attract investor interest and drive short-term price appreciation."
+    },
+    {
+      "company": "JIO FINANCIAL SERVICES LTD",
+      "rationale": "Strategic alliance with Allianz to set up a reinsurance business enhances market position and diversifies offerings."
+    },
+    {
+      "company": "LUPIN LTD",
+      "rationale": "Upgraded to 'Buy' by Investec with an increased target price, signaling potential undervaluation correction and upward price momentum."
+    },
+    {
+      "company": "TATA CONSULTANCY SERVICES LTD",
+      "rationale": "Analyst recommendation to buy shares may boost investor confidence and drive short-term demand."
+    },
+    {
+      "company": "VEDANTA LTD",
+      "rationale": "Best-ever financial performance reported, indicating strong earnings and operational success likely to drive investor confidence."
+    }
+  ],
+  "hold_stocks": [
+    {
+      "company": "ADANI ENTERPRISES LTD",
+      "rationale": "No relevant news impact; sentiment neutral due to unrelated article content."
+    },
+    {
+      "company": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD",
+      "rationale": "Minor strategic acquisition with modest financial impact; neutral sentiment overall."
+    },
+    {
+      "company": "BAJAJ FINANCE LTD",
+      "rationale": "No direct mention or impact from news article; sentiment remains neutral."
+    },
+    {
+      "company": "BAJAJ FINSERV LTD",
+      "rationale": "Article is generic market commentary with no company-specific insights; neutral sentiment."
+    },
+    {
+      "company": "BANK OF BARODA",
+      "rationale": "Multiple articles analyzed but none directly impacting the bank's performance; neutral sentiment."
+    },
+    {
+      "company": "CANARA BANK",
+      "rationale": "No direct mentions or quantifiable impacts found in analyzed articles; neutral sentiment."
+    },
+    {
+      "company": "COAL INDIA LTD",
+      "rationale": "Articles lack specific information on the company; sentiment remains neutral."
+    },
+    {
+      "company": "CUMMINS INDIA LTD",
+      "rationale": "Generic article with no specific financial or operational insights; neutral sentiment."
+    },
+    {
+      "company": "GODREJ CONSUMER PRODUCTS LTD",
+      "rationale": "Positive recognition in BT500 list and GST engagement, but not enough to drive strong sentiment; neutral stance."
+    },
+    {
+      "company": "INDUS TOWERS LTD",
+      "rationale": "Increased stake by Bharti Airtel signals confidence, but lack of concrete financial impact keeps sentiment neutral."
+    },
+    {
+      "company": "LIFE INSURANCE CORPORATION OF INDIA",
+      "rationale": "One article shows 20% share price increase, but others are unrelated; overall neutral sentiment."
+    },
+    {
+      "company": "PUNJAB NATIONAL BANK",
+      "rationale": "Unrelated article content; no impact on bank's financials or operations; neutral sentiment."
+    },
+    {
+      "company": "STATE BANK OF INDIA",
+      "rationale": "Mildly positive long-term outlook balanced by sectoral concerns; moderate sentiment overall."
+    },
+    {
+      "company": "TATA MOTORS LTD",
+      "rationale": "Generic queries with no material updates; sentiment remains neutral."
+    },
+    {
+      "company": "TRENT LTD",
+      "rationale": "Positive trend in apparel advertising may benefit brand visibility, but impact is indirect; neutral sentiment."
+    }
+  ],
+  "sell_stocks": [
+    {
+      "company": "BAJAJ HOUSING FINANCE LTD",
+      "rationale": "Shares trading 40% below highs with weak market performance, indicating investor pessimism and potential short-term downside."
+    },
+    {
+      "company": "LARSEN & TOUBRO LTD",
+      "rationale": "Intent to exit the Hyderabad Metro project raises financial and operational concerns, potentially harming investor sentiment."
+    },
+    {
+      "company": "SUZLON ENERGY LTD",
+      "rationale": "34% decline in share price signals negative market sentiment and potential investor caution due to fundamental concerns."
+    },
+    {
+      "company": "SWIGGY LTD",
+      "rationale": "Comparatively disadvantaged against peers like Urban Company, raising IPO and profitability concerns that may deter investors."
+    }
+  ],
+  "market_trends": "The analysis highlights mixed sentiments across sectors, with banking and financial services showing divergent views—some banks gaining FII favor while others remain neutral. Infrastructure and energy firms show both expansion opportunities (e.g., Adani Power) and risk factors (e.g., L&T exiting projects). Startups and digital platforms face comparative performance pressures. Overall, investor attention appears focused on strategic moves, regulatory clarity, and earnings performance.",
+  "strong_opportunities": "Strong BUY opportunities include ADANI POWER LTD ($3B PSA deal), LUPIN LTD (analyst upgrade), and VEDANTA LTD (record financials). On the SELL side, LARSEN & TOUBRO LTD’s strategic withdrawal from a major project and SWIGGY LTD’s comparative disadvantage present notable risks.",
+  "high_confidence_notes": "STATE BANK OF INDIA has the highest confidence score (100), based on extensive article coverage, though sentiment remains neutral. BANK OF BARODA and CANARA BANK also show high confidence (60) but lack actionable insights. These institutions should be monitored for future developments given their systemic importance and frequent media coverage.",
+  "analysis_date": "2025-09-15",
+  "total_companies_analyzed": 27
+}
