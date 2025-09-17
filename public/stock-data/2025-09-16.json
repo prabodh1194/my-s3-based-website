@@ -1,129 +1,289 @@
 {
   "buy_stocks": [
     {
+      "company": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD",
+      "rationale": "Strong positive analyst recommendations, strategic acquisition of Dependencia Logistics, and increased target price indicate investor confidence and potential upward momentum."
+    },
+    {
       "company": "LIFE INSURANCE CORPORATION OF INDIA",
-      "rationale": "Positive momentum driven by a 20% share price surge, increased investor confidence, and strategic stake increases in other companies like Tech Mahindra indicate improving market perception and potential financial gains."
+      "rationale": "Positive stock price momentum with a 20% increase over six months, strategic market purchases, and discussions of crossing ₹1,000 mark indicate bullish sentiment."
     },
     {
-      "company": "LUPIN LTD",
-      "rationale": "Analyst upgrade to 'Buy' with an increased target price signals improved investor sentiment, which is likely to drive short-term stock price appreciation."
+      "company": "STATE BANK OF INDIA",
+      "rationale": "Strategic developments including Yes Bank stake acquisition, strong leadership continuity, and proactive financing in green energy reflect a positive operational outlook."
     },
     {
-      "company": "SIEMENS LTD",
-      "rationale": "Positive analyst recommendation ('Buy') from financial experts can enhance investor confidence and potentially lead to increased demand for the stock in the near term."
+      "company": "MARICO LTD",
+      "rationale": "Strategic acquisition of HW Wellness Solutions and analyst expectations of nearly 15% upside potential signal growth and diversification."
+    },
+    {
+      "company": "MAX HEALTHCARE INSTITUTE LTD",
+      "rationale": "Metro-focused growth strategy, industry-leading ARPOB, and aggressive expansion pipeline indicate strong operational performance and growth potential."
     },
     {
       "company": "VEDANTA LTD",
-      "rationale": "News of best-ever financial performance indicates strong earnings and operational success, likely to boost investor confidence and drive short-term stock price appreciation."
+      "rationale": "Resolution of long-standing power project dispute and report of best-ever year suggest improved operational stability and earnings potential."
     },
     {
-      "company": "ADANI POWER LTD",
-      "rationale": "Significant positive developments including a $3B investment in the Bahgalpur plant and 1600 MW capacity addition suggest strong growth potential and operational expansion."
+      "company": "UNITED SPIRITS LTD",
+      "rationale": "Strong buy recommendation from Jefferies and positive trends in premiumisation of Indian spirits market support investor confidence."
+    },
+    {
+      "company": "INFOSYS LTD",
+      "rationale": "Announcement of Rs 18,000 crore share buyback signals strong capital return policy and confidence in future cash flows."
     }
   ],
   "hold_stocks": [
     {
-      "company": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD",
-      "rationale": "Strategic acquisition signals expansion but with limited short-term financial impact; neutral sentiment with moderate confidence."
+      "company": "ABB INDIA LTD",
+      "rationale": "Sectoral optimism from JP Morgan provides potential tailwinds, but limited company-specific news results in neutral stance."
+    },
+    {
+      "company": "ADANI ENERGY SOLUTIONS LTD",
+      "rationale": "Significant order acquisitions indicate revenue potential, but lack of specific financial impacts limits positive sentiment."
+    },
+    {
+      "company": "ADANI ENTERPRISES LTD",
+      "rationale": "Regulatory easing creates favorable fundraising environment, but no direct company-specific developments."
+    },
+    {
+      "company": "ADANI GREEN ENERGY LTD",
+      "rationale": "Articles lack specific, quantifiable impacts on financials or operations, resulting in neutral assessment."
+    },
+    {
+      "company": "ADANI POWER LTD",
+      "rationale": "Significant investments and capacity additions indicate growth, but mixed market signals limit clear positive sentiment."
+    },
+    {
+      "company": "AMBUJA CEMENTS LTD",
+      "rationale": "No specific company-related information in the article to assess quantifiable impact on stock price."
     },
     {
       "company": "AU SMALL FINANCE BANK LTD",
-      "rationale": "Inclusion among FII preferred bets suggests positive sentiment, but lack of detailed financials and low article count result in low confidence."
+      "rationale": "Inclusion among FII preferred bets signals positive sentiment, but lacks detailed financial impact."
+    },
+    {
+      "company": "AXIS BANK LTD",
+      "rationale": "Article discusses global custody services without direct reference to Axis Bank's operations or performance."
+    },
+    {
+      "company": "BAJAJ AUTO LTD",
+      "rationale": "Position in EV market signals growth potential, but lack of detailed data limits stronger positive sentiment."
     },
     {
       "company": "BAJAJ FINANCE LTD",
-      "rationale": "No direct mention or impact from recent news; sentiment remains neutral with very low confidence."
+      "rationale": "Article on cyber fraud does not directly impact Bajaj Finance's operations or financials."
+    },
+    {
+      "company": "BANK OF BARODA",
+      "rationale": "Moderately positive outlook driven by potential breakout and favorable macroeconomic conditions, but sector-wide concerns persist."
+    },
+    {
+      "company": "BHARAT ELECTRONICS LTD",
+      "rationale": "Positive order book growth and stock price jump indicate favorable momentum, but lack of specific earnings data."
     },
     {
       "company": "BHARAT PETROLEUM CORPORATION LTD",
-      "rationale": "No specific news impacting stock price; neutral sentiment with low confidence."
+      "rationale": "Articles focus on sector trends without specific impact on BPCL's performance or outlook."
     },
     {
       "company": "CANARA BANK",
-      "rationale": "No direct mentions or specific information available; neutral sentiment with moderate confidence."
+      "rationale": "No specific information regarding financial performance or strategic developments to assess impact."
     },
     {
       "company": "COAL INDIA LTD",
-      "rationale": "No relevant news or impact factors identified; neutral sentiment with low confidence."
+      "rationale": "Articles do not mention Coal India or provide quantifiable impact on its stock price."
     },
     {
       "company": "CUMMINS INDIA LTD",
-      "rationale": "Mentioned in general buy recommendations but lacks specific company-related information; neutral sentiment with very low confidence."
+      "rationale": "Inclusion in positive market commentary and share price target suggests investor confidence without specific operational data."
+    },
+    {
+      "company": "DABUR INDIA LTD",
+      "rationale": "Alignment with growing Ayurvedic market trends supports demand potential, but lacks company-specific developments."
+    },
+    {
+      "company": "GAIL (INDIA) LTD",
+      "rationale": "IPO planning signals strategic expansion, but broader LNG demand concerns temper positive sentiment."
     },
     {
       "company": "GODREJ CONSUMER PRODUCTS LTD",
-      "rationale": "Group recognition as fastest-growing establishment may enhance investor confidence, but no direct impact on financials; neutral sentiment with very low confidence."
+      "rationale": "Parent company's recognition as fastest-growing establishment supports sentiment, but no direct company-specific news."
     },
     {
       "company": "HINDUSTAN AERONAUTICS LTD",
-      "rationale": "Strong order backlog implies future revenue potential, but execution concerns limit short-term upside; neutral sentiment with very low confidence."
+      "rationale": "Significant order backlog and technology transfer agreement indicate growth potential without immediate risks."
+    },
+    {
+      "company": "HINDUSTAN UNILEVER LTD",
+      "rationale": "New CFO appointment signals leadership strengthening, but impact is moderate without strategic breakthroughs."
+    },
+    {
+      "company": "ICICI BANK LTD",
+      "rationale": "Article discusses global custody services without direct mention of ICICI Bank's involvement or impact."
     },
     {
       "company": "INDIAN OIL CORPORATION LTD",
-      "rationale": "Listed among top PSUs without specific operational or financial updates; neutral sentiment with very low confidence."
+      "rationale": "Sector-wide resilience and growth potential in oil marketing and aviation fuel segments support modest positive outlook."
     },
     {
       "company": "INDIAN RAILWAY FINANCE CORPORATION LTD",
-      "rationale": "No specific information available in analyzed articles; neutral sentiment with very low confidence."
+      "rationale": "No specific information related to IRFC's financials or operations in the provided article."
+    },
+    {
+      "company": "INDUS TOWERS LTD",
+      "rationale": "Share price target upgrade by DAM Capital signals positive sentiment, but lacks operational details."
     },
     {
       "company": "INDUSIND BANK LTD",
-      "rationale": "Included among FII preferred bank stocks indicating positive sentiment, but no fundamental improvements cited; neutral sentiment with very low confidence."
+      "rationale": "Inclusion among FII preferred bets indicates positive investor sentiment without specific financial developments."
     },
     {
       "company": "INFO EDGE (INDIA) LTD",
-      "rationale": "Recommended as a 'buy now' stock with potential upside, but tempered by broader market correction risks; neutral sentiment with low confidence."
+      "rationale": "New SVP appointment suggests proactive strategy, but no direct earnings or strategic breakthroughs."
+    },
+    {
+      "company": "INTERGLOBE AVIATION LTD",
+      "rationale": "New international routes indicate expansion, but impact is moderate without immediate financial implications."
+    },
+    {
+      "company": "ITC LTD",
+      "rationale": "Articles do not mention ITC or its operations, providing no basis for sentiment assessment."
     },
     {
       "company": "JSW STEEL LTD",
-      "rationale": "Strategic bid for Thyssenkrupp Steel Europe suggests long-term growth prospects, but execution risks limit short-term impact; neutral sentiment with very low confidence."
+      "rationale": "Articles lack specific, quantifiable impacts on JSW Steel's performance or market position."
+    },
+    {
+      "company": "KOTAK MAHINDRA BANK LTD",
+      "rationale": "Stake acquisition by Goldman Sachs and FIIs signals investor confidence, but other articles lack company-specific details."
+    },
+    {
+      "company": "LARSEN & TOUBRO LTD",
+      "rationale": "Exit from Hyderabad Metro project presents challenges, but large order from NPCIL offsets with growth potential."
+    },
+    {
+      "company": "LUPIN LTD",
+      "rationale": "Investec upgrade and target price hike signal positive sentiment, but lacks confirmation of market position."
+    },
+    {
+      "company": "MAHINDRA & MAHINDRA LTD",
+      "rationale": "Alignment with EV and farm equipment growth trends supports potential, but lacks direct company-specific news."
+    },
+    {
+      "company": "MARUTI SUZUKI INDIA LTD",
+      "rationale": "Forward-looking EV positioning supports sentiment, but lacks specific operational or financial details."
     },
     {
       "company": "OIL & NATURAL GAS CORPORATION LTD",
-      "rationale": "Mentioned among top PSUs without specific financial or operational details; neutral sentiment with very low confidence."
+      "rationale": "Neutral recognition without specific financial or operational impact on the company."
+    },
+    {
+      "company": "PIDILITE INDUSTRIES LTD",
+      "rationale": "Articles focus on general market trends without specific mention of company performance or strategy."
     },
     {
       "company": "POWER GRID CORPORATION OF INDIA LTD",
-      "rationale": "No specific information available to assess impact; neutral sentiment with very low confidence."
+      "rationale": "Articles lack specific information directly impacting the company's stock price or operations."
+    },
+    {
+      "company": "PUNJAB NATIONAL BANK",
+      "rationale": "No specific information regarding PNB's financials or strategic developments in the analyzed articles."
     },
     {
       "company": "RELIANCE INDUSTRIES LTD",
-      "rationale": "Article focuses on Gujarat economy without company-specific developments; neutral sentiment with very low confidence."
+      "rationale": "Articles discuss broader themes without quantifiable impact on company's financial or strategic position."
     },
     {
-      "company": "STATE BANK OF INDIA",
-      "rationale": "Potential gains from Yes Bank stake sale may provide short-term boost, but broader sector caution limits overall sentiment; neutral sentiment with high confidence."
+      "company": "SBI LIFE INSURANCE COMPANY LTD",
+      "rationale": "Article does not mention SBI Life or provide information on its performance or market position."
+    },
+    {
+      "company": "SHREE CEMENT LTD",
+      "rationale": "Discussion of fly ash market trends offers indirect implications without specific company impact."
+    },
+    {
+      "company": "SHRIRAM FINANCE LTD",
+      "rationale": "Article discusses Infosys buyback with no relevance to Shriram Finance's operations or outlook."
+    },
+    {
+      "company": "SIEMENS LTD",
+      "rationale": "Positive analyst sentiment and increased demand for shares suggest short-term potential without specific developments."
+    },
+    {
+      "company": "SUN PHARMACEUTICAL INDUSTRIES LTD",
+      "rationale": "Articles discuss market trends without specific information on company performance or strategy."
+    },
+    {
+      "company": "SUZLON ENERGY LTD",
+      "rationale": "Inclusion on watchlist with specific metrics does not indicate fundamental changes or news impacting operations."
+    },
+    {
+      "company": "SWIGGY LTD",
+      "rationale": "Articles do not mention Swiggy or its financial performance, strategic moves, or competitive positioning."
+    },
+    {
+      "company": "TATA CONSULTANCY SERVICES LTD",
+      "rationale": "Positive analyst sentiment and speculation around buyback drive short-term demand without concrete announcements."
     },
     {
       "company": "TATA MOTORS LTD",
-      "rationale": "Included in general stock advisory without specific company updates; neutral sentiment with very low confidence."
+      "rationale": "Articles lack specific information directly impacting Tata Motors' financial performance or competitive position."
+    },
+    {
+      "company": "TATA POWER COMPANY LTD",
+      "rationale": "Article discusses general market rebound without specific information related to Tata Power's operations."
     },
     {
       "company": "TATA STEEL LTD",
-      "rationale": "External acquisition attempt unrelated to Tata Steel's operations; neutral sentiment with very low confidence."
+      "rationale": "Articles lack specific, quantifiable impacts on Tata Steel's financials or operations."
+    },
+    {
+      "company": "TITAN COMPANY LTD",
+      "rationale": "Articles discuss retail expansion by peers without specific mention of Titan's performance or strategy."
     },
     {
       "company": "TRENT LTD",
-      "rationale": "Increased advertising spend and Q2 earnings anticipation present upside potential, but no definitive signals yet; neutral sentiment with low confidence."
+      "rationale": "Positive industry trends in retail and apparel support market positioning without direct company-specific news."
+    },
+    {
+      "company": "TVS MOTOR COMPANY LTD",
+      "rationale": "Buy recommendation with potential upside indicates positive market sentiment without detailed financial data."
+    },
+    {
+      "company": "ULTRATECH CEMENT LTD",
+      "rationale": "Alignment with sustainable construction trends supports operational efficiency without immediate financial impact."
+    },
+    {
+      "company": "ZYDUS LIFESCIENCES LTD",
+      "rationale": "FDA-approved veterinary drug launches indicate regulatory success and market expansion without broader impact."
     }
   ],
   "sell_stocks": [
     {
       "company": "BAJAJ HOUSING FINANCE LTD",
-      "rationale": "Consistent underperformance and sustained low stock prices signal weak investor confidence. Analyst downgrade and lack of positive developments increase downside risk."
+      "rationale": "Underperformance and sustained low stock prices signal weak investor confidence with analyst downgrades and lack of positive developments."
     },
     {
       "company": "HAVELLS INDIA LTD",
-      "rationale": "Loss of competitive positioning to Polycab India raises concerns over market share and revenue impact, leading to negative investor sentiment."
+      "rationale": "Increased competitive pressure from Polycab India and potential market share erosion without positive earnings indicators."
     },
     {
-      "company": "LARSEN & TOUBRO LTD",
-      "rationale": "Desire to exit the Hyderabad Metro project highlights financial and operational challenges, including losses and debt, negatively impacting investor sentiment."
+      "company": "HCL TECHNOLOGIES LTD",
+      "rationale": "Competitive threat from Infosys' large-scale buyback may divert investor attention and capital, pressuring market position."
+    },
+    {
+      "company": "TECH MAHINDRA LTD",
+      "rationale": "Infosys' significant buyback may divert investor preference and capital allocation, creating comparative pressure."
+    },
+    {
+      "company": "WIPRO LTD",
+      "rationale": "Infosys' buyback signals strong financial confidence from a major peer, potentially pressuring Wipro's stock comparatively."
     }
   ],
-  "market_trends": "The banking sector shows mixed signals with some banks like AU Small Finance Bank and IndusInd Bank gaining FII favor, while others like Bank of Baroda face headwinds from anticipated sector-wide profitability declines in FY26. Public sector undertakings like LIC are seeing renewed investor interest, while infrastructure companies like L&T are facing project execution challenges. The overall market shows cautious optimism with selective opportunities in specific sectors like finance and consumer goods.",
-  "strong_opportunities": "LIFE INSURANCE CORPORATION OF INDIA stands out as a particularly strong buy opportunity with high confidence due to its 20% share price surge, strategic investments, and improving market perception. LUPIN LTD also presents a compelling opportunity following its analyst upgrade. On the sell side, BAJAJ HOUSING FINANCE LTD shows the clearest negative trajectory with consistent underperformance and analyst downgrades.",
-  "high_confidence_notes": "BANK OF BARODA and STATE BANK OF INDIA have high confidence scores (100) in their sentiment analysis. Bank of Baroda faces sector-wide profitability concerns that could impact short-term performance, while SBI has potential upside from stake sale opportunities but is tempered by broader banking sector caution. These high-confidence assessments should be monitored closely as they represent significant positions in the Indian banking landscape.",
+  "market_trends": "The data indicates a mixed market sentiment with strong positive developments in sectors like banking (SBI, BoB), infrastructure (L&T, Adani Ports), and healthcare (Max Healthcare, United Spirits). There is notable investor interest in IT services, with Infosys' buyback creating ripple effects across peers. Renewable energy and electric vehicles show growth potential, while some companies face competitive pressures or underperformance issues. Banking sector shows resilience with strategic moves and regulatory support, while cement and construction companies benefit from sustainability trends.",
+  "strong_opportunities": "Strong buy opportunities include Infosys (large buyback), LIC (strong momentum and strategic purchases), and Adani Ports (analyst upgrades and acquisitions). Sell opportunities include Bajaj Housing Finance (analyst downgrades and underperformance) and IT companies facing competitive pressure from Infosys' buyback (HCL Tech, Tech Mahindra, Wipro).",
+  "high_confidence_notes": "Companies with high confidence scores (>90) include State Bank of India, Life Insurance Corporation of India, and Infosys. These companies show clear positive developments with strong supporting evidence: SBI has multiple strategic initiatives and leadership changes; LIC shows strong price momentum and active portfolio management; Infosys has announced its largest-ever buyback. Adani Ports also shows high confidence (90) with clear analyst upgrades and acquisitions driving positive sentiment.",
   "analysis_date": "2025-09-16",
-  "total_companies_analyzed": 30
+  "total_companies_analyzed": 71
 }
