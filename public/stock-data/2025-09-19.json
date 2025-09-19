@@ -1,0 +1,285 @@
+{
+  "buy_stocks": [
+    {
+      "company": "ADANI POWER LTD",
+      "rationale": "Significant positive developments including a $3 billion investment, 9% stock surge, and Morgan Stanley's 'Overweight' rating. SEBI clearance on the Hindenburg case has boosted investor confidence."
+    },
+    {
+      "company": "BANK OF BARODA",
+      "rationale": "Moderately positive sentiment driven by favorable macroeconomic outlooks and technical stock momentum. Benefits from sector-wide optimism and positive credit growth expectations."
+    },
+    {
+      "company": "CANARA BANK",
+      "rationale": "Mildly positive sentiment driven by sectoral attention and stock action. Public sector banks are in the spotlight, generating short-term investor interest."
+    },
+    {
+      "company": "LIFE INSURANCE CORPORATION OF INDIA",
+      "rationale": "Positive short- to medium-term outlook driven by significant share price increase and bullish analyst sentiment. Government plans to divest stake signal improved investor interest."
+    },
+    {
+      "company": "STATE BANK OF INDIA",
+      "rationale": "Divestment of 13.18% stake in Yes Bank for ₹8,889 crore enhances capital base and reduces exposure to troubled assets. Strategic focus on strengthening PSBs supports long-term confidence."
+    },
+    {
+      "company": "SUN PHARMACEUTICAL INDUSTRIES LTD",
+      "rationale": "Favorable industry trends in oncology and injectables align with company portfolio. Citi recommendation highlighting 35% upside provides bullish short-term sentiment."
+    }
+  ],
+  "hold_stocks": [
+    {
+      "company": "ABB INDIA LTD",
+      "rationale": "JP Morgan's positive outlook on capital goods sector provides potential tailwinds, but limited direct company-specific news results in neutral recommendation."
+    },
+    {
+      "company": "ADANI ENERGY SOLUTIONS LTD",
+      "rationale": "No direct information or quantifiable impact on the company's financial performance or operations. Market movements mentioned are not company-specific."
+    },
+    {
+      "company": "ADANI ENTERPRISES LTD",
+      "rationale": "Seeking Rs 16,500 crore financial support suggests potential expansion, but no strong earnings or major developments to significantly boost score."
+    },
+    {
+      "company": "ADANI GREEN ENERGY LTD",
+      "rationale": "Articles do not contain direct information or quantifiable impact on financial performance or market position. No company-specific developments mentioned."
+    },
+    {
+      "company": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD",
+      "rationale": "Acquisition and SEBI clearance are positive, but overall sentiment remains moderate with no strong earnings or market expansion news."
+    },
+    {
+      "company": "AMBUJA CEMENTS LTD",
+      "rationale": "Advancements in 3D printing technology could influence long-term positioning, but impact on short-term stock price is limited due to lack of company-specific developments."
+    },
+    {
+      "company": "APOLLO HOSPITALS ENTERPRISE LTD",
+      "rationale": "Acquisition of IFC stake indicates strategic consolidation, but impact is moderate without significant earnings or market expansion catalysts."
+    },
+    {
+      "company": "AXIS BANK LTD",
+      "rationale": "Article discusses unrelated IPO and does not mention Axis Bank or any immediate financial impact. No clear indications of stock price impact."
+    },
+    {
+      "company": "BAJAJ AUTO LTD",
+      "rationale": "Position in electric three-wheeler market shows growth, but article lacks specific financial results or major strategic developments for stronger impact."
+    },
+    {
+      "company": "BAJAJ FINANCE LTD",
+      "rationale": "Inclusion in brokerage stock picks indicates positive market interest, but no specific financial data or news disclosed to drive strong recommendation."
+    },
+    {
+      "company": "BHARAT PETROLEUM CORPORATION LTD",
+      "rationale": "Thriving amid global volatility suggests strong operational performance, but impact is moderate without specific earnings or strategic news."
+    },
+    {
+      "company": "BHARTI AIRTEL LTD",
+      "rationale": "HSBC upgrade and positive sector outlook suggest improved confidence, but impact is moderate without strong earnings or market expansion news."
+    },
+    {
+      "company": "CG POWER & INDUSTRIAL SOLUTIONS LTD",
+      "rationale": "No direct or specific information about the company in articles. Most content discusses broader industry trends with unclear impact on stock price."
+    },
+    {
+      "company": "CIPLA LTD",
+      "rationale": "Articles discuss market trends but do not mention Cipla or its operations. No specific indication of earnings impact or competitive positioning."
+    },
+    {
+      "company": "COAL INDIA LTD",
+      "rationale": "No direct information or quantifiable impact on financial performance. Articles discuss unrelated stocks or competitor developments."
+    },
+    {
+      "company": "GAIL (INDIA) LTD",
+      "rationale": "IPO planning is positive but tempered by drop in LNG demand. Mixed signals result in moderate overall sentiment."
+    },
+    {
+      "company": "GODREJ CONSUMER PRODUCTS LTD",
+      "rationale": "Articles discuss general market trends but no specific information about company financials or strategic initiatives. Impact on stock price unclear."
+    },
+    {
+      "company": "HDFC BANK LTD",
+      "rationale": "Positive analyst recommendation suggests upside potential, but overall sentiment remains moderate without strong fundamental catalysts."
+    },
+    {
+      "company": "HINDALCO INDUSTRIES LTD",
+      "rationale": "Expansion in aluminum foil market suggests potential upside, but news is not company-specific. Impact on revenue growth is indirect."
+    },
+    {
+      "company": "HINDUSTAN AERONAUTICS LTD",
+      "rationale": "Growing order backlog suggests strong future revenue potential, but questions remain about translation into actual growth."
+    },
+    {
+      "company": "HINDUSTAN UNILEVER LTD",
+      "rationale": "New CFO appointment signals leadership stability, but executive appointments typically have moderate impact on stock performance."
+    },
+    {
+      "company": "ICICI BANK LTD",
+      "rationale": "Inclusion in brokerage radar indicates positive analyst attention, but no specific financial data mentioned for stronger impact."
+    },
+    {
+      "company": "INDIAN OIL CORPORATION LTD",
+      "rationale": "Positive outlook amid global volatility suggests resilience, but impact is moderate without specific earnings or strategic developments."
+    },
+    {
+      "company": "INDUS TOWERS LTD",
+      "rationale": "Article mentions 'Buy, Sell, Or Hold' recommendation but provides no specific financial data or directional signal for clear impact."
+    },
+    {
+      "company": "INFO EDGE (INDIA) LTD",
+      "rationale": "No specific information about the company or its business operations. Focus on broader market movements with no quantifiable business impact."
+    },
+    {
+      "company": "INFOSYS LTD",
+      "rationale": "Share buyback signals confidence and may boost sentiment, but does not directly impact earnings. Moderate positive impact on EPS metrics."
+    },
+    {
+      "company": "ITC LTD",
+      "rationale": "No articles directly mention ITC or provide specific impact information. Focus on other companies and industry trends without clear effect."
+    },
+    {
+      "company": "JIO FINANCIAL SERVICES LTD",
+      "rationale": "Industry outlook is positive, but no specific earnings or contracts reported. Strategic positioning supports moderate positive sentiment."
+    },
+    {
+      "company": "JSW ENERGY LTD",
+      "rationale": "Corporate developments including acquisition agreement suggest growth, but impact is moderate without strong earnings or market expansion news."
+    },
+    {
+      "company": "JSW STEEL LTD",
+      "rationale": "Joint venture with POSCO signals expansion, but impact is moderate without strong earnings or market expansion catalysts."
+    },
+    {
+      "company": "MAHINDRA & MAHINDRA LTD",
+      "rationale": "No direct mention of company or subsidiaries. Industry trends may be relevant but no explicit connection to financial performance or strategy."
+    },
+    {
+      "company": "MAX HEALTHCARE INSTITUTE LTD",
+      "rationale": "No direct or indirect information about the company. Articles focus on general market movements and unrelated companies."
+    },
+    {
+      "company": "NTPC LTD",
+      "rationale": "Article focuses on technology trends in Indian businesses, too broad to have measurable short-term impact on stock price."
+    },
+    {
+      "company": "PERSISTENT SYSTEMS LTD",
+      "rationale": "Q1 earnings call transcript is routine disclosure without specific financial results or strategic updates for significant impact."
+    },
+    {
+      "company": "PIDILITE INDUSTRIES LTD",
+      "rationale": "Bonus issue and sector growth are positive, but impact is moderate without strong earnings or market expansion catalysts."
+    },
+    {
+      "company": "POWER GRID CORPORATION OF INDIA LTD",
+      "rationale": "Winning transmission project indicates revenue growth, but impact is moderate without strong earnings or market expansion news."
+    },
+    {
+      "company": "PUNJAB NATIONAL BANK",
+      "rationale": "Positive outlook for PSBs and government initiatives support sentiment, but no direct earnings upgrades or specific news limit impact."
+    },
+    {
+      "company": "RELIANCE INDUSTRIES LTD",
+      "rationale": "No articles directly mention company or provide specific information about financial performance or strategic developments."
+    },
+    {
+      "company": "SHREE CEMENT LTD",
+      "rationale": "CLSA upgrade is positive, but impact is moderate without strong earnings or market expansion catalysts."
+    },
+    {
+      "company": "SHRIRAM FINANCE LTD",
+      "rationale": "No mention of company or specific information regarding financial performance or market positioning. Impact unclear."
+    },
+    {
+      "company": "SIEMENS LTD",
+      "rationale": "Analyst recommendation and market demand are positive, but impact is moderate without strong earnings or strategic developments."
+    },
+    {
+      "company": "SUZLON ENERGY LTD",
+      "rationale": "Inclusion in undervalued stocks list is positive, but no direct earnings upgrades or major corporate developments announced."
+    },
+    {
+      "company": "SWIGGY LTD",
+      "rationale": "Articles focus on competitors with no direct mention of company operations or financial impact. Effect on market position unclear."
+    },
+    {
+      "company": "TATA CONSULTANCY SERVICES LTD",
+      "rationale": "Sector-wide rally and macroeconomic tailwinds support favorable sentiment, but no direct earnings or contract wins announced."
+    },
+    {
+      "company": "TATA CONSUMER PRODUCTS LTD",
+      "rationale": "Premiumisation strategy could improve margins, but second article is unrelated. Overall impact is moderate."
+    },
+    {
+      "company": "TATA MOTORS LTD",
+      "rationale": "No direct or indirect information about company operations or financial performance. No quantifiable business impact assessable."
+    },
+    {
+      "company": "TATA POWER COMPANY LTD",
+      "rationale": "Modest Q1 growth is positive but not exceptional. Impact on stock price likely to be moderate."
+    },
+    {
+      "company": "TITAN COMPANY LTD",
+      "rationale": "No articles directly mention company or its operations. No clear indication of impact on stock price."
+    },
+    {
+      "company": "TRENT LTD",
+      "rationale": "Articles focus on other retailers with no mention of company operations or financials. Impact on stock price unclear."
+    },
+    {
+      "company": "ULTRATECH CEMENT LTD",
+      "rationale": "Strategic activities indicate operational momentum, but impact on earnings or stock price is not immediate or transformative."
+    },
+    {
+      "company": "UNITED SPIRITS LTD",
+      "rationale": "Positive outlook driven by brokerage ratings and premiumisation trends, but impact is moderate without strong earnings catalysts."
+    },
+    {
+      "company": "VARUN BEVERAGES LTD",
+      "rationale": "Featured on brokerage radar indicates positive market attention, but lack of specific financial data limits impact."
+    },
+    {
+      "company": "VEDANTA LTD",
+      "rationale": "Resolution of power project dispute removes legal overhang, but impact is modest without strong earnings or market expansion news."
+    },
+    {
+      "company": "YES BANK LTD",
+      "rationale": "Major stake sale improves financial stability, but CBI chargesheet involving past management poses reputational risk."
+    },
+    {
+      "company": "ZYDUS LIFESCIENCES LTD",
+      "rationale": "FDA-approved veterinary drug launch is positive for market presence, but impact is moderate without strong earnings catalysts."
+    }
+  ],
+  "sell_stocks": [
+    {
+      "company": "ASIAN PAINTS LTD",
+      "rationale": "CCI probe creates regulatory overhang and uncertainty. Mixed investor sentiment and lack of strong earnings or growth catalysts increase risk."
+    },
+    {
+      "company": "AVENUE SUPERMARTS LTD",
+      "rationale": "Bearish brokerage sentiment due to intensifying competition and margin pressures. Negative outlook suggests downward pressure on stock."
+    },
+    {
+      "company": "HAVELLS INDIA LTD",
+      "rationale": "Market share erosion to Polycab India indicates competitive threat. No significant positive news to offset competitive disadvantage."
+    },
+    {
+      "company": "HERO MOTOCORP LTD",
+      "rationale": "Flat profit and declining revenue signal weakening financial performance. Operational or market challenges may persist, putting downward pressure on stock."
+    },
+    {
+      "company": "INDUSIND BANK LTD",
+      "rationale": "Sebi investigation into accounting discrepancies suggests regulatory and financial risks. Probe may signal governance issues affecting investor confidence."
+    },
+    {
+      "company": "LARSEN & TOUBRO LTD",
+      "rationale": "Desire to exit Hyderabad Metro project due to losses indicates financial and reputational risks. Despite strong order book, operational concerns present downside risk."
+    },
+    {
+      "company": "MARICO LTD",
+      "rationale": "Income Tax raids create regulatory uncertainty and potential operational disruption. Despite management reassurance, incident introduces financial and compliance risks."
+    }
+  ],
+  "market_trends": "Key market trends include positive sentiment toward public sector banks (Bank of Baroda, Canara Bank, Punjab National Bank) driven by government initiatives and sectoral optimism. Adani group companies show mixed sentiment with positive developments in Adani Power and Ports but limited information for others. Energy sector shows strength with companies like BPCL and IOCL benefiting from global volatility. Technology and pharmaceutical sectors display moderate optimism driven by industry trends rather than company-specific news. Regulatory issues are creating headwinds for consumer goods companies like Asian Paints and Marico.",
+  "strong_opportunities": "Strong BUY opportunities include Adani Power with its major investment announcements and banking sector plays like Bank of Baroda and State Bank of India with significant strategic developments. Strong SELL opportunities include companies facing regulatory headwinds like Marico (IT raids) and IndusInd Bank (Sebi investigation), as well as those losing competitive positioning like Havells to Polycab.",
+  "high_confidence_notes": "Several companies show high confidence scores (70-100) warranting special attention: Adani Power (100), Bank of Baroda (100), Canara Bank (100), LIC (100), SBI (100), and Sun Pharma (100) all have strong supporting evidence for their sentiment scores. Marico (100) also has high confidence but in negative sentiment due to regulatory issues. These companies have been analyzed across multiple articles (4-40 articles) providing robust data for their categorization.",
+  "analysis_date": "2025-09-19",
+  "total_companies_analyzed": 68
+}
