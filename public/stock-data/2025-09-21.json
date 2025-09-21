@@ -2,308 +2,304 @@
   "buy_stocks": [
     {
       "company": "ADANI POWER LTD",
-      "rationale": "Significant positive developments including Morgan Stanley's Overweight rating and SEBI clearance in the Hindenburg case, with high confidence (100) and 13 articles analyzed."
-    },
-    {
-      "company": "BANK OF BARODA",
-      "rationale": "Technical breakout potential above ₹245 with strong momentum indicated, supported by 10 articles and high confidence (100)."
-    },
-    {
-      "company": "CANARA BANK",
-      "rationale": "Sectoral relevance and regulatory approvals driving positive sentiment, with high confidence (100) across 10 articles."
-    },
-    {
-      "company": "LIFE INSURANCE CORPORATION OF INDIA",
-      "rationale": "Strong stock performance with 20% gain over six months, buy recommendation from Kotak Equities, and strategic investments, backed by very high confidence (100)."
-    },
-    {
-      "company": "STATE BANK OF INDIA",
-      "rationale": "Major divestment of Yes Bank stake enhancing capital base and strategic focus on financial inclusion, with extremely high confidence (100) and 38 articles analyzed."
-    },
-    {
-      "company": "JSW ENERGY LTD",
-      "rationale": "Positive corporate developments including share price rise and major acquisition agreement worth ₹1,728 Cr, with moderate-high confidence (40)."
-    },
-    {
-      "company": "JSW STEEL LTD",
-      "rationale": "Strategic joint venture with POSCO for a 6 MTPA steel plant indicating expansion and growth, with moderate confidence (20)."
-    },
-    {
-      "company": "POWER GRID CORPORATION OF INDIA LTD",
-      "rationale": "Winning a significant interstate transmission project showing revenue growth and operational expansion, with moderate-high confidence (50)."
-    },
-    {
-      "company": "BHARAT ELECTRONICS LTD",
-      "rationale": "Securing significant orders worth ₹712 crore indicating strong revenue growth and defense sector positioning, with moderate-high confidence (40)."
-    },
-    {
-      "company": "TATA POWER COMPANY LTD",
-      "rationale": "Strong Q1 FY26 financial performance with 9% net profit and 4% revenue growth, indicating operational strength, with moderate confidence (10)."
-    },
-    {
-      "company": "UNITED SPIRITS LTD",
-      "rationale": "Positive analyst outlook with 'buy' rating from Jefferies and alignment with premiumisation trends in Indian spirits, with moderate-high confidence (30)."
-    },
-    {
-      "company": "VEDANTA LTD",
-      "rationale": "Resolution of long-standing power project dispute removing legal overhang and increased brokerage attention, with moderate-high confidence (30)."
-    },
-    {
-      "company": "YES BANK LTD",
-      "rationale": "Strategic partnerships with SMBC and potential investment from SMFG indicating growth confidence, with moderate-high confidence (40)."
-    },
-    {
-      "company": "SUZLON ENERGY LTD",
-      "rationale": "UBS 'buy' recommendation with over 30% upside potential reflecting positive sentiment towards green energy positioning, with moderate confidence (20)."
-    },
-    {
-      "company": "BHARTI AIRTEL LTD",
-      "rationale": "Upgrade by HSBC and positive sector outlook from Macquarie with inclusion among top picks, indicating improved investor sentiment, with moderate-high confidence (50)."
+      "rationale": "Significant positive developments including a 14% stock surge, Morgan Stanley's Overweight rating initiation, and SEBI clearing the Adani Group in the Hindenburg case are driving investor confidence and potential short-term stock price appreciation."
     },
     {
       "company": "BAJAJ FINSERV LTD",
-      "rationale": "Strong financial guidance of ₹3 Lakh Cr revenue and ₹20,000 Cr profit indicating robust earnings potential, with moderate confidence (10)."
+      "rationale": "Strong financial position with ₹3 Lakh Cr revenue and ₹20,000 Cr profit guidance indicates robust earnings potential, supporting positive investor sentiment and likely upward movement in the stock price."
+    },
+    {
+      "company": "BHARAT ELECTRONICS LTD",
+      "rationale": "Securing significant orders worth ₹712 crore indicates strong revenue growth and reinforces its position in the defense sector, likely to positively impact investor sentiment and drive short-term stock price appreciation."
     },
     {
       "company": "INFOSYS LTD",
-      "rationale": "Announcement of ₹18,000-cr buyback signaling strong cash generation and management confidence, with moderate confidence (20)."
+      "rationale": "Announcement of an Rs 18,000-cr buyback signals strong cash generation and management’s confidence in the company's future, acting as a positive catalyst by reducing share count and potentially increasing EPS."
     },
     {
-      "company": "HINDUSTAN AERONAUTICS LTD",
-      "rationale": "Growing order backlog suggesting increased future revenues and earnings growth potential, with moderate confidence (10)."
+      "company": "JSW ENERGY LTD",
+      "rationale": "Positive corporate developments including a share price rise following key announcements and a major acquisition agreement valued at ₹1,728 Cr suggest strategic growth and potential enhancement of market position, likely to positively influence investor sentiment."
     },
     {
-      "company": "PIDILITE INDUSTRIES LTD",
-      "rationale": "Bonus share issue and inclusion in specialty chemical growth list indicating confidence and retail participation, with moderate-high confidence (40)."
+      "company": "LIFE INSURANCE CORPORATION OF INDIA",
+      "rationale": "Positive momentum driven by a 20% surge in share price over six months, a buy recommendation from Kotak Equities, and strategic investment in Mahindra Group signal confidence and potential alignment with growing sectors."
     },
     {
-      "company": "ULTRATECH CEMENT LTD",
-      "rationale": "Significant order booking of ₹86.85 crore reflecting strong demand and operational activity, with moderate-high confidence (30)."
+      "company": "POWER GRID CORPORATION OF INDIA LTD",
+      "rationale": "Winning a significant interstate transmission project in Uttar Pradesh and Madhya Pradesh indicates revenue growth and operational expansion, likely to enhance investor confidence and support the stock price."
+    },
+    {
+      "company": "STATE BANK OF INDIA",
+      "rationale": "Completion of SBI's divestment of a 13.18% stake in Yes Bank for ₹8,889 crore enhances SBI’s capital base and reduces exposure to Yes Bank, already leading to a 3-4% stock price surge, reflecting investor approval."
+    },
+    {
+      "company": "SUN PHARMACEUTICAL INDUSTRIES LTD",
+      "rationale": "Favorable analyst calls and positive market outlooks in related therapeutic areas suggest a positive spillover effect on the broader pharma sector, including Sun Pharma, indicating potential upside."
+    },
+    {
+      "company": "SUZLON ENERGY LTD",
+      "rationale": "UBS recommendation to buy with potential upside of over 30% indicates strong positive sentiment towards the company’s short-to-medium-term performance, likely driven by favorable industry trends in green energy."
+    },
+    {
+      "company": "TATA POWER COMPANY LTD",
+      "rationale": "Reporting a 9% year-over-year increase in net profit and a 4% rise in revenue for Q1 FY 2026 indicates strong financial performance, typically boosting investor confidence and leading to upward momentum in the stock price."
+    },
+    {
+      "company": "UNITED SPIRITS LTD",
+      "rationale": "A 'buy' rating from Jefferies with significant upside potential (up to 22%), initiation of coverage with a favorable recommendation, and alignment with favorable industry trends like premiumisation in the Indian spirits market are likely to boost investor confidence."
+    },
+    {
+      "company": "VEDANTA LTD",
+      "rationale": "Resolution of a long-standing power project dispute removes a significant legal and operational overhang, potentially improving Vedanta's financial outlook and investor confidence, with increased market visibility supporting stock price appreciation."
     }
   ],
   "hold_stocks": [
     {
       "company": "ABB INDIA LTD",
-      "rationale": "Positive sectoral outlook for capital goods but no direct company-specific news, with low confidence (10)."
+      "rationale": "JP Morgan's positive outlook on the capital goods sector suggests potential upside, but the lack of direct company-specific news results in a neutral recommendation for now."
     },
     {
       "company": "ADANI ENERGY SOLUTIONS LTD",
-      "rationale": "No relevant news or financial updates impacting stock, with low confidence (20)."
+      "rationale": "No direct mention or specific information regarding financial performance, market position, or industry-specific developments leads to a hold recommendation due to lack of actionable insights."
     },
     {
       "company": "ADANI ENTERPRISES LTD",
-      "rationale": "No direct mentions or specific developments, with low confidence (50)."
+      "rationale": "No articles directly mention the company or provide specific information regarding its financial performance or strategic developments, resulting in a hold recommendation."
     },
     {
       "company": "ADANI GREEN ENERGY LTD",
-      "rationale": "No relevant news or financial updates impacting stock, with low confidence (20)."
+      "rationale": "No direct mention or specific information regarding financial performance, market position, or industry-specific developments leads to a hold recommendation due to lack of actionable insights."
     },
     {
       "company": "ADANI PORTS AND SPECIAL ECONOMIC ZONE LTD",
-      "rationale": "SEBI clearance and positive analyst recommendations, but no quantifiable financial impact yet, with low confidence (20)."
+      "rationale": "SEBI clearance in the Hindenburg case and positive analyst recommendations are supportive, but no quantifiable business impact or financial updates result in a hold recommendation."
     },
     {
       "company": "AMBUJA CEMENTS LTD",
-      "rationale": "Industry-wide advancements discussed but no company-specific impact, with low confidence (10)."
+      "rationale": "Industry-wide advancements in 3D printing technology and novel construction materials are discussed, but no direct mention of the company results in a hold recommendation."
     },
     {
       "company": "APOLLO HOSPITALS ENTERPRISE LTD",
-      "rationale": "Listed as 'stock to watch' without specific financial or operational data, with low confidence (10)."
+      "rationale": "Listed as a 'stock to watch' without specific financial data or operational news leads to a hold recommendation due to lack of clear directional signals."
     },
     {
       "company": "AXIS BANK LTD",
-      "rationale": "No direct mentions or impactful news, with moderate confidence (50)."
+      "rationale": "No direct mention or quantifiable business impact from the articles results in a hold recommendation due to lack of actionable insights."
     },
     {
       "company": "BAJAJ AUTO LTD",
-      "rationale": "Focus on EV sector trends without specific company performance data, with low confidence (10)."
+      "rationale": "Focus on electric three-wheeler sales data without specific performance details of Bajaj Auto leads to a hold recommendation due to neutral relevance."
     },
     {
       "company": "BAJAJ FINANCE LTD",
-      "rationale": "Brokerage attention but no specific financial updates, with low confidence (20)."
+      "rationale": "Mention on brokerages' radar suggests positive market sentiment, but lack of specific financial or operational updates limits the strength of this signal, resulting in a hold recommendation."
     },
     {
       "company": "BAJAJ HOLDINGS & INVESTMENT LTD",
-      "rationale": "No relevant news or financial updates impacting stock, with low confidence (20)."
+      "rationale": "No direct or indirect information about the company or its financial performance leads to a hold recommendation due to lack of actionable insights."
+    },
+    {
+      "company": "BHARTI AIRTEL LTD",
+      "rationale": "HSBC's upgrade and positive outlook on the telecom sector, along with Macquarie's favorable stance, suggest improved investor confidence, but no specific company updates lead to a hold recommendation."
     },
     {
       "company": "BRITANNIA INDUSTRIES LTD",
-      "rationale": "Core business remains profitable but no new developments, with low confidence (10)."
+      "rationale": "Core biscuit business remains highly profitable, but expanding into a large food company presents challenges, resulting in a hold recommendation due to mixed outlook."
     },
     {
       "company": "CG POWER & INDUSTRIAL SOLUTIONS LTD",
-      "rationale": "No company-specific news, only sectoral trends, with low confidence (30)."
+      "rationale": "Articles discuss broader market trends and sector outlooks rather than company-specific developments, leading to a hold recommendation."
     },
     {
       "company": "CHOLAMANDALAM INVESTMENT & FINANCE COMPANY LTD",
-      "rationale": "News pertains to unrelated company, with low confidence (10)."
+      "rationale": "Article pertains to another company and does not directly mention Cholamandalam, resulting in a hold recommendation due to neutral relevance."
     },
     {
       "company": "CIPLA LTD",
-      "rationale": "Market growth in US treatments discussed but no direct impact on Cipla, with low confidence (10)."
+      "rationale": "Discussion of market growth in the US for beta thalassemia treatments without mention of Cipla leads to a hold recommendation due to lack of direct impact."
     },
     {
       "company": "COAL INDIA LTD",
-      "rationale": "Routine leadership change with no immediate financial impact, with low confidence (10)."
+      "rationale": "Leadership change recommendation is a routine update without immediate financial or operational impact, leading to a hold recommendation."
     },
     {
       "company": "CUMMINS INDIA LTD",
-      "rationale": "Positive analyst price target and sectoral outlook but no direct financial updates, with low confidence (20)."
+      "rationale": "ShareKhan's positive price target and JP Morgan's sectoral outlook are supportive, but no specific company news leads to a hold recommendation."
     },
     {
       "company": "DABUR INDIA LTD",
-      "rationale": "Positive industry trends in herbal products aligning with business focus, with low confidence (20)."
+      "rationale": "Positive industry trends in herbal and natural products align with Dabur's focus, but no direct mention leads to a hold recommendation due to indirect relevance."
     },
     {
       "company": "GODREJ CONSUMER PRODUCTS LTD",
-      "rationale": "News on unrelated industries with no direct impact, with low confidence (20)."
+      "rationale": "Articles discuss unrelated market trends, with no clear indication of impact on earnings or market share, leading to a hold recommendation."
     },
     {
       "company": "HDFC ASSET MANAGEMENT COMPANY LTD",
-      "rationale": "News pertains to unrelated company, with low confidence (10)."
+      "rationale": "Article pertains to another company and does not directly mention HDFC Asset Management, resulting in a hold recommendation due to neutral relevance."
     },
     {
       "company": "HDFC BANK LTD",
-      "rationale": "Positive market sentiment but no specific fundamental updates, with moderate confidence (50)."
+      "rationale": "Consistent positive coverage supports a bullish outlook, but absence of specific fundamental news limits the strength of the positive impact, leading to a hold recommendation."
+    },
+    {
+      "company": "HINDUSTAN AERONAUTICS LTD",
+      "rationale": "Growing order backlog suggests increased future revenues, but no immediate financial updates lead to a hold recommendation."
     },
     {
       "company": "HINDUSTAN UNILEVER LTD",
-      "rationale": "Leadership change with potential for improved financial strategy, with moderate confidence (60)."
+      "rationale": "Appointment of new CFO signals leadership stability, but being a routine executive appointment leads to a hold recommendation due to moderate impact."
     },
     {
       "company": "ICICI BANK LTD",
-      "rationale": "Positive brokerage mentions but no specific financial news, with moderate confidence (50)."
+      "rationale": "Mention in positive stock picks context suggests brokerages are recommending it, but absence of specific fundamental news leads to a hold recommendation."
     },
     {
       "company": "INDIAN OIL CORPORATION LTD",
-      "rationale": "Sectoral growth trends but no direct company-specific catalysts, with moderate confidence (50)."
+      "rationale": "Sectoral growth trends are positive, but no direct company-specific catalysts warrant a higher score, leading to a hold recommendation."
     },
     {
       "company": "INFO EDGE (INDIA) LTD",
-      "rationale": "No specific news impacting the company, with low confidence (20)."
+      "rationale": "No specific information about the company indicates a clear impact on stock price, leading to a hold recommendation."
     },
     {
       "company": "ITC LTD",
-      "rationale": "Continued investment in Nepal indicating long-term confidence, with moderate confidence (50)."
+      "rationale": "Continued investment in Nepal signals confidence in long-term growth, but lack of direct mention leads to a hold recommendation due to moderate impact."
     },
     {
       "company": "JIO FINANCIAL SERVICES LTD",
-      "rationale": "News pertains to unrelated company, with low confidence (10)."
+      "rationale": "Article pertains to another company and does not directly mention Jio Financial, resulting in a hold recommendation due to neutral relevance."
+    },
+    {
+      "company": "JSW STEEL LTD",
+      "rationale": "Joint venture with POSCO signals expansion, but no immediate financial updates lead to a hold recommendation."
     },
     {
       "company": "KOTAK MAHINDRA BANK LTD",
-      "rationale": "News about Yes Bank's initiatives with no direct impact, with low confidence (20)."
+      "rationale": "News discusses another bank's strategic move with no direct impact on Kotak Mahindra Bank, leading to a hold recommendation."
     },
     {
       "company": "MAHINDRA & MAHINDRA LTD",
-      "rationale": "Positive industry trends in EV and air filtration sectors aligning with strategy, with low confidence (30)."
+      "rationale": "Favorable industry trends in EV components align with strategic focus, but no direct mention leads to a hold recommendation due to indirect relevance."
     },
     {
       "company": "MARUTI SUZUKI INDIA LTD",
-      "rationale": "New pricing and EV production commencement indicating progress, with low confidence (20)."
+      "rationale": "New car prices following GST rate cut and eVitara production commencement are positive, but early-stage developments lead to a hold recommendation."
     },
     {
       "company": "MAX HEALTHCARE INSTITUTE LTD",
-      "rationale": "General market performance discussed with no company-specific news, with low confidence (20)."
+      "rationale": "Articles discuss general market performance without company-specific information, leading to a hold recommendation."
     },
     {
       "company": "PERSISTENT SYSTEMS LTD",
-      "rationale": "Routine earnings call transcript without specific updates, with low confidence (10)."
+      "rationale": "Q1 FY25 earnings call transcript is a routine disclosure without specific financial results or strategic updates, leading to a hold recommendation."
+    },
+    {
+      "company": "PIDILITE INDUSTRIES LTD",
+      "rationale": "Bonus share issue and inclusion in specialty chemical stocks list are positive, but broader industry trends offer limited short-term impact, leading to a hold recommendation."
     },
     {
       "company": "POWER FINANCE CORPORATION LTD",
-      "rationale": "News pertains to unrelated company, with low confidence (10)."
+      "rationale": "Article pertains to another company with no direct financial linkage, leading to a hold recommendation."
     },
     {
       "company": "PUNJAB NATIONAL BANK",
-      "rationale": "No direct mentions or impactful news, with moderate-high confidence (80)."
+      "rationale": "No articles directly mention the bank or contain specific information impacting its stock price, leading to a hold recommendation."
     },
     {
       "company": "RELIANCE INDUSTRIES LTD",
-      "rationale": "No relevant news or financial updates impacting stock, with low confidence (30)."
+      "rationale": "No direct or indirect information impacting the company's stock price is available, leading to a hold recommendation."
     },
     {
       "company": "SHRIRAM FINANCE LTD",
-      "rationale": "News pertains to other companies, with low confidence (10)."
+      "rationale": "Article does not mention the company directly, focusing on others, leading to a hold recommendation due to lack of relevance."
     },
     {
       "company": "SIEMENS LTD",
-      "rationale": "Analyst 'buy' recommendation but no fundamental updates, with low confidence (10)."
-    },
-    {
-      "company": "SUN PHARMACEUTICAL INDUSTRIES LTD",
-      "rationale": "Positive pharma sector outlook but no direct company news, with moderate-high confidence (80)."
+      "rationale": "Positive analyst recommendation may attract interest, but absence of new fundamental developments leads to a hold recommendation."
     },
     {
       "company": "TATA CONSULTANCY SERVICES LTD",
-      "rationale": "Positive market movement due to macro factors but no direct company news, with low confidence (20)."
+      "rationale": "Positive market movement driven by macroeconomic conditions supports investor confidence, but no direct company updates lead to a hold recommendation."
     },
     {
       "company": "TATA CONSUMER PRODUCTS LTD",
-      "rationale": "Premiumisation strategy in tea business indicating margin improvement, with low confidence (20)."
+      "rationale": "Premiumisation strategy in tea business may improve margins, but unrelated article leads to a hold recommendation due to mixed relevance."
     },
     {
       "company": "TATA MOTORS LTD",
-      "rationale": "No relevant news or financial updates impacting stock, with low confidence (30)."
+      "rationale": "No direct or indirect information about the company impacts stock price, leading to a hold recommendation."
     },
     {
       "company": "TATA STEEL LTD",
-      "rationale": "Mixed outlook with significant contract win but regulatory concerns, with low confidence (20)."
+      "rationale": "Significant contract receipt is positive, but export duty concerns introduce regulatory uncertainty, leading to a hold recommendation due to mixed signals."
     },
     {
       "company": "TITAN COMPANY LTD",
-      "rationale": "No relevant news or financial updates impacting stock, with high confidence (90)."
+      "rationale": "No material information impacting financial performance or market position is available, leading to a hold recommendation."
     },
     {
       "company": "TRENT LTD",
-      "rationale": "Retail industry trends discussed but no company-specific impact, with moderate-high confidence (80)."
+      "rationale": "Retail expansions reflect positive industry trends but do not directly impact the company, leading to a hold recommendation."
     },
     {
       "company": "TVS MOTOR COMPANY LTD",
-      "rationale": "Positioned favorably in EV sector growth but no specific updates, with low confidence (10)."
+      "rationale": "Positioned favorably within the growing EV sector, but no specific financial data leads to a hold recommendation."
+    },
+    {
+      "company": "ULTRATECH CEMENT LTD",
+      "rationale": "Significant order booking reflects strong demand, but sectoral trends without company-specific news lead to a hold recommendation."
     },
     {
       "company": "VARUN BEVERAGES LTD",
-      "rationale": "Brokerage attention but no specific financial data, with low confidence (10)."
+      "rationale": "Inclusion in brokerages' radar suggests positive analyst attention, but lack of specific financial data leads to a hold recommendation."
+    },
+    {
+      "company": "YES BANK LTD",
+      "rationale": "Strategic partnerships signal confidence in growth trajectory, but reputational concerns from historical issues limit impact, leading to a hold recommendation."
+    },
+    {
+      "company": "ZOMATO LTD",
+      "rationale": "Article discusses unrelated investment with no direct relation to Zomato's financial performance, leading to a hold recommendation."
     },
     {
       "company": "ZYDUS LIFESCIENCES LTD",
-      "rationale": "FDA-approved veterinary drug launches indicating market expansion, with low confidence (10)."
+      "rationale": "FDA-approved veterinary drug launch indicates regulatory success, but lack of specific financial figures leads to a hold recommendation."
     }
   ],
   "sell_stocks": [
     {
       "company": "ASIAN PAINTS LTD",
-      "rationale": "Negative sentiment due to regulatory issues (CCI probe) and competitive pressures, with high confidence (80)."
+      "rationale": "Regulatory issues, ongoing legal uncertainty from CCI probe, and persistent competitive threats outweigh positive factors, leading to a negative short-term outlook."
     },
     {
       "company": "AVENUE SUPERMARTS LTD",
-      "rationale": "Bearish brokerage outlook due to competition and margin pressures, with low confidence (10)."
+      "rationale": "Intensifying competition, margin pressures, and bearish outlook from brokerages influence investor sentiment negatively, leading to a sell recommendation."
     },
     {
       "company": "BAJAJ HOUSING FINANCE LTD",
-      "rationale": "Concerns about meeting IPO listing price indicating investor skepticism, with low confidence (10)."
+      "rationale": "Concerns about meeting IPO listing price and negative market sentiment signal investor skepticism and potential underperformance, leading to a sell recommendation."
     },
     {
       "company": "HAVELLS INDIA LTD",
-      "rationale": "Competitive disadvantage against Polycab India with potential market share loss, with low confidence (20)."
+      "rationale": "Competitive disadvantage against Polycab India and potential market share erosion negatively impact brand positioning and investor confidence, leading to a sell recommendation."
     },
     {
       "company": "INDUS TOWERS LTD",
-      "rationale": "Recent 6% share price drop indicating negative market movement, with low confidence (20)."
+      "rationale": "Negative market movement and sectoral concerns without positive fundamental indicators to offset the decline lead to a sell recommendation."
     },
     {
       "company": "LARSEN & TOUBRO LTD",
-      "rationale": "Exit from Hyderabad Metro project due to losses raising execution and profitability concerns, with low confidence (30)."
+      "rationale": "Exit from Hyderabad Metro project due to losses and operational risks signal potential financial and reputational strain, leading to a sell recommendation despite strong order book."
     },
     {
       "company": "MARICO LTD",
-      "rationale": "Income Tax raid indicating regulatory scrutiny and potential operational disruption, with moderate-high confidence (70)."
+      "rationale": "Income Tax department raid suggests regulatory scrutiny and potential operational disruptions, negatively impacting stock price in the short term, leading to a sell recommendation."
     }
   ],
-  "market_trends": "Key market trends include positive sentiment around the Adani Group post-SEBI clearance, renewed interest in banking stocks (especially public sector banks), growth in renewable energy and EV sectors, strategic corporate developments in steel and power sectors, and increased focus on financial performance and regulatory compliance. There is also notable analyst activity driving short-term sentiment in several stocks.",
-  "strong_opportunities": "Strong buy opportunities include ADANI POWER LTD, STATE BANK OF INDIA, and LIFE INSURANCE CORPORATION OF INDIA due to significant positive developments and high confidence scores. Notable sell opportunities include MARICO LTD due to regulatory issues and LARSEN & TOUBRO LTD due to project exit concerns.",
-  "high_confidence_notes": "Several companies stand out with high confidence scores (80-100): STATE BANK OF INDIA (100), ADANI POWER LTD (100), CANARA BANK (100), BANK OF BARODA (100), PUNJAB NATIONAL BANK (80), SUN PHARMACEUTICAL INDUSTRIES LTD (80), MARICO LTD (70), and TITAN COMPANY LTD (90). These companies warrant special attention due to either significant market movements, major corporate developments, or extensive news coverage providing reliable sentiment analysis.",
+  "market_trends": "The market shows a mixed sentiment with positive developments in sectors like capital goods, telecom, banking, and renewable energy. Analyst upgrades, strategic partnerships, and regulatory clearances are boosting confidence in specific companies. However, regulatory issues, competitive pressures, and operational risks are weighing on certain stocks, particularly in consumer goods and infrastructure.",
+  "strong_opportunities": "Strong buy opportunities are evident in Adani Power, Infosys, and Suzlon Energy due to analyst upgrades, significant financial developments, and strategic moves. On the sell side, Marico and Larsen & Toubro present strong sell opportunities due to regulatory scrutiny and operational setbacks respectively.",
+  "high_confidence_notes": "Companies with high confidence scores include Adani Power, State Bank of India, and Life Insurance Corporation of India. These firms have clear positive catalysts such as regulatory clearances, strategic investments, and strong financial performance, warranting close attention for potential portfolio inclusion.",
   "analysis_date": "2025-09-21",
   "total_companies_analyzed": 75
 }
