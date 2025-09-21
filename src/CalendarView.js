@@ -1,21 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const CalendarView = () => {
-    // Hardcoded list of available stock analysis dates
-    const availableDates = [
-        '2025-09-19',
-        '2025-09-16',
-        '2025-09-15',
-        '2025-09-14',
-        '2025-09-07'
-    ];
+    const [availableDates, setAvailableDates] = useState([]);
+    const [availableYears, setAvailableYears] = useState([]);
+    const [availableYearMonths, setavailableYearMonths] = useState([]);
 
     const [currentDate, setCurrentDate] = useState(new Date());
 
-    // Extract available years and months
-    const availableYears = [...new Set(availableDates.map(date => date.split('-')[0]))].sort().reverse();
-    const availableYearMonths = [...new Set(availableDates.map(date => date.substring(0, 7)))].sort().reverse();
+    useEffect(() => {
+        // Dynamically import all JSON files from the stock-data directory
+        const importAll = (context) => context.keys().map(context);
+        const context = require.context('../public/stock-data/', false, /\.json$/);
+        const jsonData = importAll(context);
+
+        // Extract dates from filenames
+        const dates = context.keys().map((fileName) => {
+            // Extract date from filename (e.g., "./2025-09-19.json" -> "2025-09-19")
+            return fileName.replace('./', '').replace('.json', '');
+        });
+
+        setAvailableDates(dates);
+        setAvailableYears([...new Set(availableDates.map(date => date.split('-')[0]))].sort().reverse())
+        setavailableYearMonths([...new Set(availableDates.map(date => date.substring(0, 7)))].sort().reverse())
+
+    }, []);
 
     // Function to get days in month
     const getDaysInMonth = (year, month) => {

@@ -36,3 +36,13 @@ To set up pre-commit hooks:
    ```
 
 The hooks will automatically run on every commit to ensure code consistency.
+
+## AWS Resources
+
+This project provisions several AWS resources using Terraform:
+
+- S3 bucket for static website hosting
+- CloudFront distribution for CDN
+- Route53 DNS records
+- Lambda function for cache invalidation
+- SQS queues for stock name processing (with Dead Letter Queue)
