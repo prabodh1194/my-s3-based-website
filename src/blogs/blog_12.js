@@ -44,15 +44,34 @@ export const mod = () => {
             <p>
                 All this done & told, I think I am still quite sometime away from doing a RAG & building solutions for
                 that purpose. There is a bunch of scope to understand how should large docs be chunked while retaining
-                context so that they are queryable using LLMs. However, with a generous
-                <RedMonoText>qwen-code</RedMonoText> access, I think this is a bit more doable now than before. I am
-                pretty sure that I'll need more time, but it is happening.
+                context so that they are queryable using LLMs. However, with a
+                generous <RedMonoText>qwen-code</RedMonoText> access, I think this is a bit more doable now than before.
+                I am pretty sure that I'll need more time, but it is happening.
             </p>
             <p>
                 In another news, I have started doing some knowledge gain in basic CUDA techniques. I have developed
                 some started path for learning. I found some recorded lectures from OLCF where they have started with
                 how to do matmul in kernel. Pretty cool stuff. I learnt about multiple flavors of matmul with tiling
                 being a complete mind opener 🤯.
+            </p>
+            <p>
+                The productivity unlock that I have gained with this vibe-coding mania is insane & frankly speaking
+                unparallel <em>(-- ed)?</em>. I have quite a few TODOs that I want to knock-off.
+                <ul>
+                    <li>
+                        Add switchable themes on this blog. Current style is cyber-punk. I want to add anime, matrix as
+                        well as solarised themes & also want to be able to switch between those
+                    </li>
+                    <li>
+                        There are still a few manual steps in my stocks analysis system. I want to automate that.
+                    </li>
+                    <li>
+                        I want to create a paper index of stocks where the portfolio is adjusted based on these reccos.
+                        Need to create a benchmark as well & check how well is that portfolio performing 💰.
+                    </li>
+                </ul>
+
+                With these many TODOs, I believe that my task of creating a RAG is well on the back-burner 😅.
             </p>
             <p> Happy dummying! 🐶 </p>
         </>
