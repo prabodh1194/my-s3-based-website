@@ -1,0 +1,317 @@
+{
+  "buy_stocks": [
+    {
+      "company": "Adani Ports and Special Economic Zone Ltd",
+      "rationale": "Record cargo and rail volumes in H1FY26 signal strong operational performance and potential revenue growth"
+    },
+    {
+      "company": "Bharat Electronics Ltd",
+      "rationale": "Consistently highlighted for securing significant defense contracts and featured in top growth stock lists"
+    },
+    {
+      "company": "Bajaj Housing Finance Ltd",
+      "rationale": "32% YoY increase in disbursals and 24% growth in AUM signal strong operational performance and business expansion"
+    },
+    {
+      "company": "Cummins India Ltd",
+      "rationale": "Strong financial performance and positive forward guidance from Q2 earnings call"
+    },
+    {
+      "company": "Dixon Technologies (India) Ltd",
+      "rationale": "Projected strong revenue growth potential and analyst buy recommendations supporting upward price momentum"
+    },
+    {
+      "company": "Indian Railway Finance Corporation Ltd",
+      "rationale": "₹16,489 crore agreement for major power projects signals substantial revenue growth potential"
+    },
+    {
+      "company": "IndusInd Bank Ltd",
+      "rationale": "Strong institutional buying by FIIs and positive broker coverage likely to support upward price momentum"
+    },
+    {
+      "company": "Life Insurance Corporation of India",
+      "rationale": "Removal of GST on life insurance policies generating significant inflows and strategic growth moves"
+    },
+    {
+      "company": "Mahindra & Mahindra Ltd",
+      "rationale": "Strong sales growth in tractors and vehicles, with strategic expansion into international EV markets"
+    },
+    {
+      "company": "Max Healthcare Institute Ltd",
+      "rationale": "Inclusion in NIFTY50 index likely to attract institutional investment and enhance liquidity"
+    },
+    {
+      "company": "Persistent Systems Ltd",
+      "rationale": "Recommended as stock to buy with projected 32% upside, signaling strong market confidence"
+    },
+    {
+      "company": "Power Grid Corporation of India Ltd",
+      "rationale": "Strong net profit margins, bullish market sentiment, and board approval of infrastructure upgrade projects"
+    },
+    {
+      "company": "Reliance Industries Ltd",
+      "rationale": "Projection of more than doubling EBITD and surging diesel exports to Europe driving positive momentum"
+    },
+    {
+      "company": "Shriram Finance Ltd",
+      "rationale": "MUFG's potential 20% stake acquisition signals strong institutional confidence and injects substantial capital"
+    },
+    {
+      "company": "Tata Motors Ltd",
+      "rationale": "Demerger approval and strong sales performance signal strategic clarity and growth momentum"
+    },
+    {
+      "company": "Tube Investments of India Ltd",
+      "rationale": "Opening of new battery plant for electric vehicles signals strategic expansion into growing market"
+    },
+    {
+      "company": "Yes Bank Ltd",
+      "rationale": "Recommended as stock to buy with projected 45% upside likely to generate investor interest"
+    }
+  ],
+  "hold_stocks": [
+    {
+      "company": "ABB India Ltd",
+      "rationale": "No specific company information beyond general market sentiment"
+    },
+    {
+      "company": "Adani Enterprises Ltd",
+      "rationale": "Lacks specific information about financial performance or operational developments"
+    },
+    {
+      "company": "Adani Green Energy Ltd",
+      "rationale": "Operational capacity expansion partially offset by potential stake sales and regulatory challenges"
+    },
+    {
+      "company": "Adani Power Ltd",
+      "rationale": "No direct quantifiable impact from general market trends"
+    },
+    {
+      "company": "Apollo Hospitals Enterprise Ltd",
+      "rationale": "Benefits from healthcare sector tailwinds but lacks company-specific financial data"
+    },
+    {
+      "company": "AU Small Finance Bank Ltd",
+      "rationale": "Positive investor sentiment from stock picks but absence of specific financial catalysts"
+    },
+    {
+      "company": "Avenue Supermarts Ltd",
+      "rationale": "Expansion investments tempered by increased leverage introducing financial risk"
+    },
+    {
+      "company": "Axis Bank Ltd",
+      "rationale": "Analyst interest without specific catalysts for significant price movement"
+    },
+    {
+      "company": "Bajaj Auto Ltd",
+      "rationale": "No direct connection to company operations or competitive positioning"
+    },
+    {
+      "company": "Bajaj Finserv Ltd",
+      "rationale": "General market forecasts without specific strategic actions or financial implications"
+    },
+    {
+      "company": "Bank of Baroda",
+      "rationale": "RBI reforms and co-lending partnerships tempered by industry headwinds"
+    },
+    {
+      "company": "Britannia Industries Ltd",
+      "rationale": "Industry growth trends without concrete ties to company operations"
+    },
+    {
+      "company": "Canara Bank",
+      "rationale": "Regulatory progress for capital raising but limited overall impact"
+    },
+    {
+      "company": "Cholamandalam Investment & Finance Company Ltd",
+      "rationale": "No specific information about company earnings or operations"
+    },
+    {
+      "company": "Cipla Ltd",
+      "rationale": "Benefits from API market growth but absence of company-specific developments"
+    },
+    {
+      "company": "Dabur India Ltd",
+      "rationale": "No direct mention of company operations or financial impact"
+    },
+    {
+      "company": "Dr Reddys Laboratories Ltd",
+      "rationale": "No direct connection to company operations or competitive position"
+    },
+    {
+      "company": "Eicher Motors Ltd",
+      "rationale": "No direct impact from competitor leadership appointments"
+    },
+    {
+      "company": "Grasim Industries Ltd",
+      "rationale": "General industry context without company-specific catalysts"
+    },
+    {
+      "company": "Havells India Ltd",
+      "rationale": "General market trends without direct connection to company operations"
+    },
+    {
+      "company": "HCL Technologies Ltd",
+      "rationale": "Broad market trends without specific company contracts or strategic actions"
+    },
+    {
+      "company": "HDFC Bank Ltd",
+      "rationale": "No direct information about bank operations or financial outlook"
+    },
+    {
+      "company": "HDFC Life Insurance Co Ltd",
+      "rationale": "On brokerages' radar but without specific catalysts like earnings surprises"
+    },
+    {
+      "company": "Hero MotoCorp Ltd",
+      "rationale": "Solid operational performance with stable industry demand trends"
+    },
+    {
+      "company": "Hindustan Aeronautics Ltd",
+      "rationale": "Positive price target upgrade but absence of operational or financial catalysts"
+    },
+    {
+      "company": "Hindustan Unilever Ltd",
+      "rationale": "New CFO appointment and stock recommendations boost confidence"
+    },
+    {
+      "company": "ICICI Bank Ltd",
+      "rationale": "No quantifiable business impact from unrelated market topics"
+    },
+    {
+      "company": "Indian Oil Corporation Ltd",
+      "rationale": "Industry trends without specific company involvement or strategic positioning"
+    },
+    {
+      "company": "Infosys Ltd",
+      "rationale": "Share buyback signals management confidence but lacks specific financial catalysts"
+    },
+    {
+      "company": "ITC Ltd",
+      "rationale": "Industry growth aligns with portfolio but limited direct quantifiable impact"
+    },
+    {
+      "company": "Jindal Steel & Power Ltd",
+      "rationale": "No direct mention of company in provided news articles"
+    },
+    {
+      "company": "JSW Energy Ltd",
+      "rationale": "Featured in renewable energy stock lists but impact is sentiment-driven"
+    },
+    {
+      "company": "JSW Steel Ltd",
+      "rationale": "Industry forecast without specific company operational updates"
+    },
+    {
+      "company": "Kotak Mahindra Bank Ltd",
+      "rationale": "On brokerages' radar amid market rebound but no bank-specific catalysts"
+    },
+    {
+      "company": "LTIMindtree Ltd",
+      "rationale": "AI-driven transformation and growth targets signal operational momentum"
+    },
+    {
+      "company": "Lupin Ltd",
+      "rationale": "VISUfarma acquisition strengthens specialty business but integration risks temper upside"
+    },
+    {
+      "company": "Macrotech Developers Ltd",
+      "rationale": "No direct mention of company in provided news content"
+    },
+    {
+      "company": "Marico Ltd",
+      "rationale": "No specific information about company financial performance or strategic moves"
+    },
+    {
+      "company": "NTPC Ltd",
+      "rationale": "No direct connection to company operations or strategic positioning"
+    },
+    {
+      "company": "Power Finance Corporation Ltd",
+      "rationale": "Incomplete news content without company-specific details"
+    },
+    {
+      "company": "Punjab National Bank",
+      "rationale": "No direct material developments specific to bank operations"
+    },
+    {
+      "company": "Samvardhana Motherson International Ltd",
+      "rationale": "Competitors emulating strategy reinforces leadership position"
+    },
+    {
+      "company": "Shree Cement Ltd",
+      "rationale": "New RMC plant represents modest expansion without immediate major impact"
+    },
+    {
+      "company": "SRF Ltd",
+      "rationale": "General market growth without company-specific developments"
+    },
+    {
+      "company": "State Bank of India",
+      "rationale": "RBI framework presents lending opportunity offset by recent profit decline"
+    },
+    {
+      "company": "Sun Pharmaceutical Industries Ltd",
+      "rationale": "Potential benefit from clarified U.S. tariff policies but lacks direct financial catalysts"
+    },
+    {
+      "company": "Tata Consumer Products Ltd",
+      "rationale": "₹2,000 crore investment signals growth commitment"
+    },
+    {
+      "company": "Tata Power Company Ltd",
+      "rationale": "Inclusion in stock lists may attract investor interest but lacks specific catalysts"
+    },
+    {
+      "company": "Tata Steel Ltd",
+      "rationale": "Positive short-term momentum from stock rise but limited material influence"
+    },
+    {
+      "company": "Titan Company Ltd",
+      "rationale": "No direct relation to company's core businesses in jewelry and watches"
+    },
+    {
+      "company": "Ultratech Cement Ltd",
+      "rationale": "No specific mention of company involvement or impacts"
+    },
+    {
+      "company": "Vedanta Ltd",
+      "rationale": "Oversubscribed bond issue indicates investor confidence but lacks operational news"
+    },
+    {
+      "company": "Wipro Ltd",
+      "rationale": "Resolved income tax matter has no material financial impact"
+    }
+  ],
+  "sell_stocks": [
+    {
+      "company": "Bharti Airtel Ltd",
+      "rationale": "Stock decline of 0.93% indicates negative market reaction and investor concerns"
+    },
+    {
+      "company": "GAIL (India) Ltd",
+      "rationale": "Decline in manufacturing activity suggests reduced industrial demand affecting gas consumption"
+    },
+    {
+      "company": "Indus Towers Ltd",
+      "rationale": "HSBC's 'Reduce' rating due to growth concerns signals potential downward pressure"
+    },
+    {
+      "company": "Larsen & Toubro Ltd",
+      "rationale": "BofA's downgrade to 'underperform' with limited upside expectations"
+    },
+    {
+      "company": "Suzlon Energy",
+      "rationale": "6.3% stock price decline reflects negative market sentiment amid competitive pressures"
+    },
+    {
+      "company": "Tata Consultancy Services Ltd",
+      "rationale": "Tata Group losing $75 billion in market value and H-1B visa concerns create regulatory uncertainty"
+    }
+  ],
+  "market_trends": "The analysis reveals several key market trends: strong momentum in infrastructure and defense sectors with companies like Bharat Electronics and Power Grid showing positive performance; renewable energy sector experiencing mixed signals with both expansion opportunities and competitive pressures; banking sector showing selective strength with specific institutions benefiting from regulatory changes and institutional interest; healthcare sector benefiting from industry tailwinds; and continued focus on electric vehicle and technology transformation across multiple industries.",
+  "strong_opportunities": "Strong buy opportunities include Life Insurance Corporation of India (significant inflows from GST removal and strategic growth moves), Mahindra & Mahindra (strong sales growth and international EV expansion), and Tata Motors (demerger approval and strong sales performance). Strong sell opportunities include Tata Consultancy Services (significant market value erosion and regulatory uncertainty) and Larsen & Toubro (brokerage downgrade with limited upside expectations).",
+  "high_confidence_notes": "Companies with high confidence scores (80-100) warrant special attention: Axis Bank (100% confidence), Bank of Baroda (100%), Life Insurance Corporation of India (100%), Mahindra & Mahindra (100%), State Bank of India (100%), Tata Motors (100%), Adani Green Energy (80%), and Sun Pharmaceutical Industries (80%). These companies have been analyzed with extensive article coverage and provide more reliable sentiment indicators for investment decisions.",
+  "analysis_date": "2025-10-03",
+  "total_companies_analyzed": 76
+}
