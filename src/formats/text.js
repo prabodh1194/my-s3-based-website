@@ -8,3 +8,6 @@ export const MonoText = ({children}) => (
     <span style={{fontFamily: 'monospace', fontSize: 'smaller', fontWeight: 'lighter'}}>{children}</span>
 );
 
+export const RedMonoText = ({children}) => (
+    <span style={{fontFamily: 'monospace', fontWeight: 'lighter', color: '#ff5500'}}>{children}</span>
+);
