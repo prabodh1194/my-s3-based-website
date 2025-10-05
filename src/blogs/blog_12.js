@@ -30,8 +30,8 @@ export const mod = () => {
                 markets analysis RAG, I actually did a recent news analysis system for BSE 100 + NSE 100 stocks.
             </p>
             <p>
-                This universe is of 116 stocks & can be accessed by a new endpoint called
-                <a style={{color: "#0088ff"}} href={"/se"}>/se</a> on this blog.
+                This universe is of 116 stocks & can be accessed by a new endpoint
+                called <a style={{color: "#0088ff"}} href={"/se"}>/se</a> on this blog.
             </p>
             <p>
                 I have done a bunch of AWS lambdas that scrape news for these companies under multiple search terms &
