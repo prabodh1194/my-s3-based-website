@@ -67,12 +67,14 @@ const Blog = () => {
     }, [blogs, pathParams]);
 
     return (
-        <div className="pt-4">
-            <h4 className="fw-bold">Articles:</h4>
-            <div>
-                {routes.length > 0 ? routes : <span>No articles found</span>}
+        <main>
+            <div className="page-wrapper">
+                <h1>Blog</h1>
+                <div>
+                    {routes.length > 0 ? routes : <span>No articles found</span>}
+                </div>
             </div>
-        </div>
+        </main>
     )
 }
 

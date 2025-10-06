@@ -6,7 +6,6 @@ import Blog from "./Blog";
 import About from "./About";
 import {BlogElement} from "./BlogElement";
 import ColorPalette from "./ColorPalette";
-import WaveBackground from './WaveBackground';
 import StockAnalysisList from "./StockAnalysisList";
 import StockAnalysisPage from "./StockAnalysisPage";
 
@@ -34,7 +33,6 @@ const App = () => {
 
     return (
         <Router>
-            <WaveBackground />
             <Routes>
                 <Route element={<Top/>}>
                     <Route exact path="/" element={<Main/>}/>

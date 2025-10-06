@@ -13,16 +13,21 @@ export const BlogElement = ({component}) => {
     }, [contentRef]);
 
     return (
-        <div className="fs-5 fw-light pt-4">
-            <h3 className="align left fw-bold rainbow">{component.name}</h3>
-            <div className="mt-1 mb-4 fw-lighter" style={{"color": "var(--text-tertiary)"}}>
-                <time dateTime={component.created_on}>{component.created_on.words()}</time>
-                <span className="mx-2">•</span>
-                <span>{readWords} words</span>
-            </div>
-            <article ref={contentRef} className="align left">
-                <component.mod />
+        <main>
+            <article>
+                <div className="article-header">
+                    <div className="article-meta">
+                        <span><time dateTime={component.created_on}>{component.created_on.words()}</time></span>
+                        <span>·</span>
+                        <span>{readWords} words</span>
+                    </div>
+                    <h1>{component.name}</h1>
+                </div>
+
+                <div className="article-content" ref={contentRef}>
+                    <component.mod />
+                </div>
             </article>
-        </div>
+        </main>
     );
 }
