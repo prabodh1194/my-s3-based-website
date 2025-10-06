@@ -7,56 +7,48 @@ import { faAt } from '@fortawesome/free-solid-svg-icons'
 
 class Top extends Component {
     render() {
-        const navItems = ["blog", "@me"];
-
         return (
             <div className="app-container d-flex flex-column min-vh-100">
-                <div className="page-wrapper">
-                    <header>
-                        <Link to="/" key="btn-hm" className="flex-grow-1">
-                            <span className="nav-text fw-light fs-5">
-                                <span className="fst-italic">/</span>
-                            </span>
+                <header>
+                    <div className="nav-container">
+                        <Link to="/" className="logo">
+                            Prabodh Agarwal
                         </Link>
-                        {navItems.map((el, idx) => {
-                            return (<Link
-                                    to={`/${el.toLowerCase()}`}
-                                    key={`btn-${idx}`}>
-                                    <span className="nav-text fw-light fs-5">
-                                        <span className="cyber-text">{el}</span>
-                                    </span>
-                                </Link>
-                            );
-                        })}
-                    </header>
-                    <div className="content-area flex-grow-1">
-                        <Outlet/>
+                        <ul className="nav-links">
+                            <li><Link to="/blog"><span>blog</span></Link></li>
+                            <li><Link to="/@me"><span>@me</span></Link></li>
+                        </ul>
                     </div>
-                    <footer className="mt-3">
-                        <div className="footer-content">
-                            <div className="footer-links">
-                                <Link to="//twitter.com/prabodh_agarwal">
-                                    <FontAwesomeIcon className="fa-icon" icon={faTwitter} />
-                                </Link>
-                                <Link to="//github.com/prabodh1194">
-                                    <FontAwesomeIcon className="fa-icon" icon={faGithub} />
-                                </Link>
-                                <Link to="//linkedin.com/in/prabodh-agarwal">
-                                    <FontAwesomeIcon className="fa-icon" icon={faLinkedinIn} />
-                                </Link>
-                                <Link to="//medium.com/@pbd_94">
-                                    <FontAwesomeIcon className="fa-icon" icon={faMedium} />
-                                </Link>
-                                <Link to="mailto:prabodh1194@gmail.com?subject=Hi from your blog">
-                                    <FontAwesomeIcon className="fa-icon" icon={faAt} />
-                                </Link>
-                            </div>
-                            <div className="footer-copyright cyber-text">
-                                © {new Date().getFullYear()} Prabodh Agarwal
-                            </div>
-                        </div>
-                    </footer>
+                </header>
+
+                <div className="content-area flex-grow-1">
+                    <Outlet/>
                 </div>
+
+                <footer>
+                    <div className="footer-content">
+                        <div className="footer-links">
+                            <a href="//twitter.com/prabodh_agarwal" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon className="fa-icon" icon={faTwitter} />
+                            </a>
+                            <a href="//github.com/prabodh1194" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon className="fa-icon" icon={faGithub} />
+                            </a>
+                            <a href="//linkedin.com/in/prabodh-agarwal" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon className="fa-icon" icon={faLinkedinIn} />
+                            </a>
+                            <a href="//medium.com/@pbd_94" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon className="fa-icon" icon={faMedium} />
+                            </a>
+                            <a href="mailto:prabodh1194@gmail.com?subject=Hi from your blog" target="_blank" rel="noopener noreferrer">
+                                <FontAwesomeIcon className="fa-icon" icon={faAt} />
+                            </a>
+                        </div>
+                        <div className="footer-copyright">
+                            © {new Date().getFullYear()} Prabodh Agarwal
+                        </div>
+                    </div>
+                </footer>
             </div>
         );
     }

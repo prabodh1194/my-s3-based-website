@@ -78,78 +78,82 @@ const StockAnalysisPage = () => {
     }
 
     return (
-        <div className="stock-analysis fs-5 fw-light pt-4">
-            <h3 className="align left fw-bold cyber-text">TOP 100 INDIAN STOCKS ANALYSIS</h3>
-            <div className="mt-1 mb-4 fw-lighter" style={{"color": "var(--text-tertiary)"}}>
-                <time dateTime={analysisData.analysis_date}>{analysisData.analysis_date}</time>
-                <span className="mx-2">•</span>
-                <span>Stock Analysis Report</span>
+        <main>
+            <div className="page-wrapper">
+                <div className="stock-analysis fs-5 fw-light pt-4">
+                    <h3 className="align left fw-bold cyber-text">TOP 100 INDIAN STOCKS ANALYSIS</h3>
+                    <div className="mt-1 mb-4 fw-lighter" style={{"color": "var(--text-tertiary)"}}>
+                        <time dateTime={analysisData.analysis_date}>{analysisData.analysis_date}</time>
+                        <span className="mx-2">•</span>
+                        <span>Stock Analysis Report</span>
+                    </div>
+                    <article className="align left">
+                        <div className="mb-5">
+                            <h3 className="cyber-text border-bottom-cyber pb-2">MARKET TRENDS</h3>
+                            <p className="cyber-text-light" dangerouslySetInnerHTML={{
+                                __html: highlightCompanies(analysisData.market_trends)
+                            }}></p>
+                        </div>
+
+                        <div className="mb-5">
+                            <h3 className="cyber-text border-bottom-cyber pb-2">STRONG OPPORTUNITIES</h3>
+                            <p className="cyber-text-light" dangerouslySetInnerHTML={{
+                                __html: highlightCompanies(analysisData.strong_opportunities)
+                            }}></p>
+                        </div>
+
+                        <div className="mb-5">
+                            <h3 className="cyber-text border-bottom-cyber pb-2">HIGH CONFIDENCE NOTES</h3>
+                            <p className="cyber-text-light" dangerouslySetInnerHTML={{
+                                __html: highlightCompanies(analysisData.high_confidence_notes)
+                            }}></p>
+                        </div>
+
+                        <div className="mb-5">
+                            <p className="cyber-text fw-bold">TOTAL COMPANIES ANALYZED: <span className="cyber-text">{analysisData.total_companies_analyzed}</span></p>
+                        </div>
+
+                        <div className="recommendations">
+                            <div className="mb-5">
+                                <h3 className="cyber-text-green text-center pb-3 border-bottom-cyber-green">BUY RECOMMENDATIONS</h3>
+                                <div className="stocks-list">
+                                    {analysisData.buy_stocks.map((stock, index) => (
+                                        <div key={index} className="p-3 mb-3">
+                                            <h4 className="cyber-text-green company-name">{stock.company}</h4>
+                                            <p className="cyber-text-light mb-0">{stock.rationale}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+
+                            <div className="mb-5">
+                                <h3 className="cyber-text-yellow text-center pb-3 border-bottom-cyber-yellow">HOLD RECOMMENDATIONS</h3>
+                                <div className="stocks-list">
+                                    {analysisData.hold_stocks.map((stock, index) => (
+                                        <div key={index} className="p-3 mb-3">
+                                            <h4 className="cyber-text-yellow company-name">{stock.company}</h4>
+                                            <p className="cyber-text-light mb-0">{stock.rationale}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+
+                            <div className="mb-5">
+                                <h3 className="cyber-text-red text-center pb-3 border-bottom-cyber-red">SELL RECOMMENDATIONS</h3>
+                                <div className="stocks-list">
+                                    {analysisData.sell_stocks.map((stock, index) => (
+                                        <div key={index} className="p-3 mb-3">
+                                            <h4 className="cyber-text-red company-name">{stock.company}</h4>
+                                            <p className="cyber-text-light mb-0">{stock.rationale}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <article className="align left">
-                <div className="mb-5">
-                    <h3 className="cyber-text border-bottom-cyber pb-2">MARKET TRENDS</h3>
-                    <p className="cyber-text-light" dangerouslySetInnerHTML={{
-                        __html: highlightCompanies(analysisData.market_trends)
-                    }}></p>
-                </div>
-
-                <div className="mb-5">
-                    <h3 className="cyber-text border-bottom-cyber pb-2">STRONG OPPORTUNITIES</h3>
-                    <p className="cyber-text-light" dangerouslySetInnerHTML={{
-                        __html: highlightCompanies(analysisData.strong_opportunities)
-                    }}></p>
-                </div>
-
-                <div className="mb-5">
-                    <h3 className="cyber-text border-bottom-cyber pb-2">HIGH CONFIDENCE NOTES</h3>
-                    <p className="cyber-text-light" dangerouslySetInnerHTML={{
-                        __html: highlightCompanies(analysisData.high_confidence_notes)
-                    }}></p>
-                </div>
-
-                <div className="mb-5">
-                    <p className="cyber-text fw-bold">TOTAL COMPANIES ANALYZED: <span className="cyber-text">{analysisData.total_companies_analyzed}</span></p>
-                </div>
-
-                <div className="recommendations">
-                    <div className="mb-5">
-                        <h3 className="cyber-text-green text-center pb-3 border-bottom-cyber-green">BUY RECOMMENDATIONS</h3>
-                        <div className="stocks-list">
-                            {analysisData.buy_stocks.map((stock, index) => (
-                                <div key={index} className="p-3 mb-3">
-                                    <h4 className="cyber-text-green company-name">{stock.company}</h4>
-                                    <p className="cyber-text-light mb-0">{stock.rationale}</p>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-
-                    <div className="mb-5">
-                        <h3 className="cyber-text-yellow text-center pb-3 border-bottom-cyber-yellow">HOLD RECOMMENDATIONS</h3>
-                        <div className="stocks-list">
-                            {analysisData.hold_stocks.map((stock, index) => (
-                                <div key={index} className="p-3 mb-3">
-                                    <h4 className="cyber-text-yellow company-name">{stock.company}</h4>
-                                    <p className="cyber-text-light mb-0">{stock.rationale}</p>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-
-                    <div className="mb-5">
-                        <h3 className="cyber-text-red text-center pb-3 border-bottom-cyber-red">SELL RECOMMENDATIONS</h3>
-                        <div className="stocks-list">
-                            {analysisData.sell_stocks.map((stock, index) => (
-                                <div key={index} className="p-3 mb-3">
-                                    <h4 className="cyber-text-red company-name">{stock.company}</h4>
-                                    <p className="cyber-text-light mb-0">{stock.rationale}</p>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </div>
+        </main>
     );
 };
 
